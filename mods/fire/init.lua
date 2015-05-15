@@ -5,6 +5,16 @@
 fire = {}
 
 
+-- Intllib
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+fire.intllib = S
+
+
 -- Register flame nodes
 
 minetest.register_node("fire:basic_flame", {
