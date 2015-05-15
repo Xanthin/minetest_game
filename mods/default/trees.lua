@@ -1,4 +1,5 @@
 local random = math.random
+local S = default.intllib
 
 --
 -- Grow trees from saplings
@@ -72,24 +73,24 @@ minetest.register_abm({
 
 		local mapgen = minetest.get_mapgen_params().mgname
 		if node.name == "default:sapling" then
-			minetest.log("action", "A sapling grows into a tree at "..
-				minetest.pos_to_string(pos))
+			minetest.log("action", S("A sapling grows into a tree at @1",
+				minetest.pos_to_string(pos)))
 			if mapgen == "v6" then
 				default.grow_tree(pos, random(1, 4) == 1)
 			else
 				default.grow_new_apple_tree(pos)
 			end
 		elseif node.name == "default:junglesapling" then
-			minetest.log("action", "A jungle sapling grows into a tree at "..
-				minetest.pos_to_string(pos))
+			minetest.log("action", S("A jungle sapling grows into a tree at @1",
+				minetest.pos_to_string(pos)))
 			if mapgen == "v6" then
 				default.grow_jungle_tree(pos)
 			else
 				default.grow_new_jungle_tree(pos)
 			end
 		elseif node.name == "default:pine_sapling" then
-			minetest.log("action", "A pine sapling grows into a tree at "..
-				minetest.pos_to_string(pos))
+			minetest.log("action", S("A pine sapling grows into a tree at @1",
+				minetest.pos_to_string(pos)))
 			local snow = is_snow_nearby(pos)
 			if mapgen == "v6" then
 				default.grow_pine_tree(pos, snow)
@@ -184,7 +185,7 @@ function default.grow_tree(pos, is_apple_tree, bad)
 		replaced yet
 	--]]
 	if bad then
-		error("Deprecated use of default.grow_tree")
+		error(S("Deprecated use of default.grow_tree"))
 	end
 
 	local x, y, z = pos.x, pos.y, pos.z
@@ -217,7 +218,7 @@ function default.grow_jungle_tree(pos, bad)
 		replaced yet
 	--]]
 	if bad then
-		error("Deprecated use of default.grow_jungle_tree")
+		error(S("Deprecated use of default.grow_jungle_tree"))
 	end
 
 	local x, y, z = pos.x, pos.y, pos.z
