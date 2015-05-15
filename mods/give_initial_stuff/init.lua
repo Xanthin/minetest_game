@@ -6,9 +6,18 @@ give_initial_stuff = {
 	items = {}
 }
 
+-- Intllib
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+give_initial_stuff.intllib = S
+
 function give_initial_stuff.give(player)
 	minetest.log("action",
-			"Giving initial stuff to player " .. player:get_player_name())
+			S("Giving initial stuff to player @1", player:get_player_name()))
 	local inv = player:get_inventory()
 	for _, stack in ipairs(give_initial_stuff.items) do
 		inv:add_item("main", stack)
