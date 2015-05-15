@@ -1,6 +1,16 @@
 -- Minetest 0.4 mod: vessels
 -- See README.txt for licensing and other information.
 
+-- Intllib
+vessels = {}
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+vessels.intllib = S
+
 local vessels_shelf_formspec =
 	"size[8,7;]" ..
 	default.gui_bg ..
@@ -33,7 +43,7 @@ local function get_vessels_shelf_formspec(inv)
 end
 
 minetest.register_node("vessels:shelf", {
-	description = "Vessels Shelf",
+	description = S("Vessels shelf"),
 	tiles = {"default_wood.png", "default_wood.png", "default_wood.png",
 		"default_wood.png", "vessels_shelf.png", "vessels_shelf.png"},
 	paramtype2 = "facedir",
@@ -58,20 +68,20 @@ minetest.register_node("vessels:shelf", {
 		return 0
 	end,
 	on_metadata_inventory_move = function(pos, from_list, from_index, to_list, to_index, count, player)
-		minetest.log("action", player:get_player_name() ..
-			   " moves stuff in vessels shelf at ".. minetest.pos_to_string(pos))
+		minetest.log("action", S("@1 moves stuff in vessels shelf at @2", 
+		  player:get_player_name(), minetest.pos_to_string(pos)))
 		local meta = minetest.get_meta(pos)
 		meta:set_string("formspec", get_vessels_shelf_formspec(meta:get_inventory()))
 	end,
 	on_metadata_inventory_put = function(pos, listname, index, stack, player)
-		minetest.log("action", player:get_player_name() ..
-			   " moves stuff to vessels shelf at ".. minetest.pos_to_string(pos))
+		minetest.log("action", S("@1 moves stuff to vessels shelf at @2", 
+		  player:get_player_name(), minetest.pos_to_string(pos)))
 		local meta = minetest.get_meta(pos)
 		meta:set_string("formspec", get_vessels_shelf_formspec(meta:get_inventory()))
 	end,
 	on_metadata_inventory_take = function(pos, listname, index, stack, player)
-		minetest.log("action", player:get_player_name() ..
-			   " takes stuff from vessels shelf at ".. minetest.pos_to_string(pos))
+		minetest.log("action", S("@1 takes stuff from vessels shelf at @2", 
+		  player:get_player_name(), minetest.pos_to_string(pos)))
 		local meta = minetest.get_meta(pos)
 		meta:set_string("formspec", get_vessels_shelf_formspec(meta:get_inventory()))
 	end,
@@ -94,7 +104,7 @@ minetest.register_craft({
 })
 
 minetest.register_node("vessels:glass_bottle", {
-	description = "Glass Bottle (empty)",
+	description = S("Glass Bottle (empty)"),
 	drawtype = "plantlike",
 	tiles = {"vessels_glass_bottle.png"},
 	inventory_image = "vessels_glass_bottle.png",
@@ -120,7 +130,7 @@ minetest.register_craft( {
 })
 
 minetest.register_node("vessels:drinking_glass", {
-	description = "Drinking Glass (empty)",
+	description = S("Drinking Glass (empty)"),
 	drawtype = "plantlike",
 	tiles = {"vessels_drinking_glass.png"},
 	inventory_image = "vessels_drinking_glass_inv.png",
@@ -146,7 +156,7 @@ minetest.register_craft( {
 })
 
 minetest.register_node("vessels:steel_bottle", {
-	description = "Heavy Steel Bottle (empty)",
+	description = S("Heavy Steel Bottle (empty)"),
 	drawtype = "plantlike",
 	tiles = {"vessels_steel_bottle.png"},
 	inventory_image = "vessels_steel_bottle.png",
@@ -175,7 +185,7 @@ minetest.register_craft( {
 -- Glass and steel recycling
 
 minetest.register_craftitem("vessels:glass_fragments", {
-	description = "Pile of Glass Fragments",
+	description = S("Pile of Glass Fragments"),
 	inventory_image = "vessels_glass_fragments.png",
 })
 

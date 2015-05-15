@@ -1,3 +1,14 @@
+local wool = {}
+
+-- Intllib
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+wool.intllib = S
+
 -- This uses a trick: you can first define the recipes using all of the base
 -- colors, and then some recipes using more specific colors for a few non-base
 -- colors available. When crafting, the last recipes will be checked first.
@@ -24,7 +35,7 @@ for i = 1, #dyes do
 	local name, desc, craft_color_group = unpack(dyes[i])
 
 	minetest.register_node("wool:" .. name, {
-		description = desc .. " Wool",
+		description = S("@1 Wool", desc),
 		tiles = {"wool_" .. name .. ".png"},
 		is_ground_content = false,
 		groups = {snappy = 2, choppy = 2, oddly_breakable_by_hand = 3,

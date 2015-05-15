@@ -84,6 +84,16 @@ minetest.register_on_dignode(function(pos)
 end)
 
 xpanes = {}
+
+-- Intllib
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+xpanes.intllib = S
+
 function xpanes.register_pane(name, def)
 	for i = 1, 15 do
 		minetest.register_alias("xpanes:" .. name .. "_" .. i, "xpanes:" .. name .. "_flat")
@@ -146,7 +156,7 @@ function xpanes.register_pane(name, def)
 end
 
 xpanes.register_pane("pane", {
-	description = "Glass Pane",
+	description = S("Glass Pane"),
 	textures = {"default_glass.png","xpanes_pane_half.png","xpanes_white.png"},
 	inventory_image = "default_glass.png",
 	wield_image = "default_glass.png",
@@ -159,7 +169,7 @@ xpanes.register_pane("pane", {
 })
 
 xpanes.register_pane("bar", {
-	description = "Iron bar",
+	description = S("Iron bar"),
 	textures = {"xpanes_bar.png","xpanes_bar.png","xpanes_bar_top.png"},
 	inventory_image = "xpanes_bar.png",
 	wield_image = "xpanes_bar.png",

@@ -1,6 +1,14 @@
 -- our API object
 doors = {}
 
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+doors.intllib = S
+
 -- private data
 local _doors = {}
 _doors.registered_doors = {}
@@ -442,7 +450,7 @@ end
 
 doors.register("door_wood", {
 		tiles = {{ name = "doors_door_wood.png", backface_culling = true }},
-		description = "Wooden Door",
+		description = S("Wooden Door"),
 		inventory_image = "doors_item_wood.png",
 		groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2},
 		recipe = {
@@ -454,7 +462,7 @@ doors.register("door_wood", {
 
 doors.register("door_steel", {
 		tiles = {{name = "doors_door_steel.png", backface_culling = true}},
-		description = "Steel Door",
+		description = S("Steel Door"),
 		inventory_image = "doors_item_steel.png",
 		protected = true,
 		groups = {cracky = 1, level = 2},
@@ -470,7 +478,7 @@ doors.register("door_steel", {
 
 doors.register("door_glass", {
 		tiles = {"doors_door_glass.png"},
-		description = "Glass Door",
+		description = S("Glass Door"),
 		inventory_image = "doors_item_glass.png",
 		groups = {cracky=3, oddly_breakable_by_hand=3},
 		sounds = default.node_sound_glass_defaults(),
@@ -485,7 +493,7 @@ doors.register("door_glass", {
 
 doors.register("door_obsidian_glass", {
 		tiles = {"doors_door_obsidian_glass.png"},
-		description = "Obsidian Glass Door",
+		description = S("Obsidian Glass Door"),
 		inventory_image = "doors_item_obsidian_glass.png",
 		groups = {cracky=3},
 		sounds = default.node_sound_glass_defaults(),
@@ -675,7 +683,7 @@ function doors.register_trapdoor(name, def)
 end
 
 doors.register_trapdoor("doors:trapdoor", {
-	description = "Trapdoor",
+	description = S("Trapdoor"),
 	inventory_image = "doors_trapdoor.png",
 	wield_image = "doors_trapdoor.png",
 	tile_front = "doors_trapdoor.png",
