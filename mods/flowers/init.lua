@@ -7,6 +7,16 @@
 flowers = {}
 
 
+-- Intllib
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+flowers.intllib = S
+
+
 -- Map Generation
 
 dofile(minetest.get_modpath("flowers") .. "/mapgen.lua")
