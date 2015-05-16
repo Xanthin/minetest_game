@@ -1,4 +1,4 @@
-local S = default.intllib
+local S = beds.intllib
 
 -- Fancy shaped bed
 
