@@ -9,6 +9,7 @@ Copyright (C) 2015 - Auke Kok <sofar@foo-projects.org>
 -- our API object
 doors = {}
 
+-- Intllib
 local S
 if minetest.get_modpath("intllib") then
 	S = intllib.Getter()

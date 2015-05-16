@@ -1,6 +1,7 @@
 -- Minetest 0.4 mod: bones
 -- See README.txt for licensing and other information.
 
+-- Intllib
 local S
 if minetest.get_modpath("intllib") then
 	S = intllib.Getter()
