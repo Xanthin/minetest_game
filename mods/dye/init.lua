@@ -1,7 +1,11 @@
 -- Other mods can use these for looping through available colors
 
 dye = {}
+dye.basecolors = {"white", "grey", "black", "red", "yellow", "green", "cyan", "blue", "magenta"}
+dye.excolors = {"white", "lightgrey", "grey", "darkgrey", "black", "red", "orange", "yellow",
+	"lime", "green", "aqua", "cyan", "sky_blue", "blue", "violet", "magenta", "red_violet"}
 
+-- Intllib
 local S
 if minetest.get_modpath("intllib") then
 	S = intllib.Getter()
@@ -9,10 +13,6 @@ else
 	S = function(s) return s end
 end
 dye.intllib = S
-
-dye.basecolors = {"white", "grey", "black", "red", "yellow", "green", "cyan", "blue", "magenta"}
-dye.excolors = {"white", "lightgrey", "grey", "darkgrey", "black", "red", "orange", "yellow",
-	"lime", "green", "aqua", "cyan", "sky_blue", "blue", "violet", "magenta", "red_violet"}
 
 -- Make dye names and descriptions available globally
 
