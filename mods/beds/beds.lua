@@ -1,4 +1,4 @@
-local S = beds.intllib
+local S = ibeds.intllib
 
 -- Fancy shaped bed
 
