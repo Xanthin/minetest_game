@@ -6,13 +6,14 @@ dye.excolors = {"white", "lightgrey", "grey", "darkgrey", "black", "red", "orang
 	"lime", "green", "aqua", "cyan", "sky_blue", "blue", "violet", "magenta", "red_violet"}
 
 -- Intllib
+idye = {}
 local S
 if minetest.get_modpath("intllib") then
 	S = intllib.Getter()
 else
 	S = function(s) return s end
 end
-dye.intllib = S
+idye.intllib = S
 
 -- Make dye names and descriptions available globally
 
