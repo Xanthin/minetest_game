@@ -1,4 +1,4 @@
-local S = beds.intllib
+local S = ibeds.intllib
 
 local pi = math.pi
 local player_in_bed = 0
