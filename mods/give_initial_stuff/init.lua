@@ -7,13 +7,15 @@ give_initial_stuff = {
 }
 
 -- Intllib
+igistuff = {}
+
 local S
 if minetest.get_modpath("intllib") then
 	S = intllib.Getter()
 else
 	S = function(s) return s end
 end
-give_initial_stuff.intllib = S
+igistuff.intllib = S
 
 function give_initial_stuff.give(player)
 	minetest.log("action",
