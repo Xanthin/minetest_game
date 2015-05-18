@@ -1,4 +1,14 @@
 
+-- Intllib
+ixpanes = {}
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+ixpanes.intllib = S
+
 local function is_pane(pos)
 	return minetest.get_item_group(minetest.get_node(pos).name, "pane") > 0
 end
@@ -84,16 +94,6 @@ minetest.register_on_dignode(function(pos)
 end)
 
 xpanes = {}
-
--- Intllib
-local S
-if minetest.get_modpath("intllib") then
-	S = intllib.Getter()
-else
-	S = function(s) return s end
-end
-xpanes.intllib = S
-
 function xpanes.register_pane(name, def)
 	for i = 1, 15 do
 		minetest.register_alias("xpanes:" .. name .. "_" .. i, "xpanes:" .. name .. "_flat")

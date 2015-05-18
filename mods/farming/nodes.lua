@@ -1,4 +1,4 @@
-local S = farming.intllib
+local S = ifarming.intllib
 
 minetest.override_item("default:dirt", {
 	soil = {
