@@ -1,0 +1,24 @@
+#init.lua
+Wheat seed = Семена пшеницы
+Flour = Мука
+Bread = Хлеб
+Cotton seed = Сменая хлопка
+
+#hoes.lua
+Wooden Hoe = Деревянная мотыга
+Stone Hoe = Каменная мотыга
+Steel Hoe = Стальная мотыга
+Bronze Hoe = Бронзовая мотыга
+Mese Hoe = Мез мотыга
+Diamond Hoe = Алмазная мотыга
+
+#nodes.lua
+Soil = Поча
+Wet Soil = Влажная почва
+Desert Sand Soil = Песчанная почва
+Wet Desert Sand Soil = Влажная песчанная почва
+Straw = Солома
+
+#api.lua
+Hoe = Разрыхлять
+Seed = Семена

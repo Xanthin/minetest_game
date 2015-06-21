@@ -1,0 +1,10 @@
+#init.lua
+Vessels shelf = Полка сосудов
+@1 moves stuff in vessels shelf at @2 = @1 переместить вещи в полку сосудов @2
+@1 moves stuff to vessels shelf at @2 = @1 переместить вещи на полку сосудов @2
+@1 takes stuff from vessels shelf at @2 = @1 забрать вещи из полки сосудов @2
+Glass Bottle (empty) = Стеклянная бутылка (пустая)
+Drinking Glass (empty) = Питьевой бокал (пустой)
+Heavy Steel Bottle (empty) = Тяжелая стальная бутылка (пустая)
+Pile of Glass Fragments = Куча осколков стекла
+  
