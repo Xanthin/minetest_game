@@ -1,0 +1,7 @@
+#init.lua
+Can use /sethome and /home = Вы можете использовать /sethome и /home
+Teleport you to your home point = Телепортировать вас к вашему дому
+Teleported to home! = Вы телепортированы домой!
+Set a home using /sethome = Чтобы установить дом, используйте /sethome
+Set your home point = Установить точку вашего дома
+Home set! = Дом установлен!
