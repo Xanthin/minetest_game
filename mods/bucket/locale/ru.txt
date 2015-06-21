@@ -1,0 +1,4 @@
+#init.lua
+Empty Bucket = Пустое ведро
+Water Bucket = Ведро с водой
+Lava Bucket = Ведро с лавой

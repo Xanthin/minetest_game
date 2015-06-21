@@ -1,0 +1,3 @@
+#init.lua
+Gun Powder = Порох
+[TNT] Loaded! = [TNT] Загружен!
