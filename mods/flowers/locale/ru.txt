@@ -1,0 +1,7 @@
+#init.lua
+White Dandelion = Белый одуванчик
+Yellow Dandelion = Желтый одуванчик
+Blue Geranium = Голубая герань
+Rose = Роза
+Tulip = Тюльпан
+Viola = Фиалка
