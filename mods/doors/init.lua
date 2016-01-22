@@ -2,14 +2,13 @@
 doors = {}
 
 -- Intllib
-idoors = {}
 local S
 if minetest.get_modpath("intllib") then
 	S = intllib.Getter()
 else
 	S = function(s) return s end
 end
-idoors.intllib = S
+doors.intllib = S
 
 -- private data
 local _doors = {}

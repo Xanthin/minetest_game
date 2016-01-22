@@ -8,14 +8,13 @@ stairs = {}
 
 
 -- Intllib
-istairs = {}
 local S
 if minetest.get_modpath("intllib") then
 	S = intllib.Getter()
 else
 	S = function(s) return s end
 end
-istairs.intllib = S
+stairs.intllib = S
 
 
 -- Register aliases for new pine node names

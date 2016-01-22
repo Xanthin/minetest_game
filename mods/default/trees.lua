@@ -1,5 +1,5 @@
 local random = math.random
-local S = idefault.intllib
+local S = default.intllib
 
 --
 -- Grow trees from saplings

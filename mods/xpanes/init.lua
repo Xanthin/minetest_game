@@ -1,13 +1,12 @@
 
 -- Intllib
-ixpanes = {}
 local S
 if minetest.get_modpath("intllib") then
 	S = intllib.Getter()
 else
 	S = function(s) return s end
 end
-ixpanes.intllib = S
+xpanes.intllib = S
 
 local function is_pane(pos)
 	return minetest.get_item_group(minetest.get_node(pos).name, "pane") > 0

@@ -8,14 +8,13 @@ flowers = {}
 
 
 -- Intllib
-iflowers = {}
 local S
 if minetest.get_modpath("intllib") then
 	S = intllib.Getter()
 else
 	S = function(s) return s end
 end
-iflowers.intllib = S
+flowers.intllib = S
 
 
 -- Map Generation

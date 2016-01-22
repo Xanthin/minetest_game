@@ -1,14 +1,13 @@
 screwdriver = {}
 
 -- Intllib
-isdriver = {}
 local S
 if minetest.get_modpath("intllib") then
 	S = intllib.Getter()
 else
 	S = function(s) return s end
 end
-isdriver.intllib = S
+screwdriver.intllib = S
 
 local function nextrange(x, max)
 	x = x + 1
