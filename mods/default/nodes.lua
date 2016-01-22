@@ -179,7 +179,7 @@ default:nyancat_rainbow
 
 --]]
 
-local S = idefault.intllib
+local S = default.intllib
 
 --
 -- Stone

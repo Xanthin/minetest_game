@@ -1,4 +1,4 @@
-local S = ifarming.intllib
+local S = farming.intllib
 
 minetest.override_item("default:dirt", {
 	groups = {crumbly=3, soil=1},
