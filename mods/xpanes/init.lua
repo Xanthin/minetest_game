@@ -1,14 +1,13 @@
 xpanes = {}
 
 -- Intllib
-ixpanes = {}
 local S
 if minetest.get_modpath("intllib") then
 	S = intllib.Getter()
 else
 	S = function(s) return s end
 end
-ixpanes.intllib = S
+xpanes.intllib = S
 
 local function rshift(x, by)
 	return math.floor(x / 2 ^ by)
