@@ -2,14 +2,13 @@
 -- See README.txt for licensing and other information.
 
 -- Intllib
-ibones = {}
 local S
 if minetest.get_modpath("intllib") then
 	S = intllib.Getter()
 else
 	S = function(s) return s end
 end
-ibones.intllib = S
+bones.intllib = S
 
 local function is_owner(pos, name)
 	local owner = minetest.get_meta(pos):get_string("owner")

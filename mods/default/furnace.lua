@@ -3,7 +3,7 @@
 -- Formspecs
 --
 
-local S = idefault.intllib
+local S = default.intllib
 
 local function active_formspec(fuel_percent, item_percent)
 	local formspec = 
