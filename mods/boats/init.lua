@@ -1,5 +1,5 @@
 -- Intllib
-iboats = {}
+boats = {}
 
 local S
 if minetest.get_modpath("intllib") then
@@ -7,7 +7,7 @@ if minetest.get_modpath("intllib") then
 else
 	S = function(s) return s end
 end
-iboats.intllib = S
+boats.intllib = S
 
 --
 -- Helper functions

@@ -7,7 +7,7 @@ if enable_tnt == nil then
 end
 
 -- Intllib
-itnt = {}
+tnt = {}
 
 -- Intllib
 local S
@@ -16,7 +16,7 @@ if minetest.get_modpath("intllib") then
 else
 	S = function(s) return s end
 end
-itnt.intllib = S
+tnt.intllib = S
 
 -- loss probabilities array (one in X will be lost)
 local loss_prob = {}
