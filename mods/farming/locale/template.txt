@@ -1,7 +1,9 @@
 #init.lua
+Wheat = 
 Wheat seed = 
 Flour = 
 Bread = 
+Cotton = 
 Cotton seed = 
 
 #hoes.lua

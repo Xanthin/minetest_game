@@ -1,0 +1,15 @@
+﻿# German Translation for flowers Mod
+# Deutsche Übersetzung der flowers Mod
+# last update: 2016/January/25
+# Author: Xanthin
+
+#init.lua
+White dandelion = Weißer Löwenzahn
+Yellow Dandelion = Gelber Löwenzahn
+Blue Geranium = Blaue Geranie
+Rose = Rose
+Orange Tulip = Orange Tulpe
+Viola = Veilchen
+Brown Mushroom = Brauner Pilz
+Red Mushroom = Roter Pilz
+Waterlily = Seerose
