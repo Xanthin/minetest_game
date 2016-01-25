@@ -14,9 +14,21 @@ local S
 if minetest.get_modpath("intllib") then
 	S = intllib.Getter()
 else
-	S = function(s) return s end
+	S = function(s,a,...)
+			if a==nil then
+				return s
+			end
+			a={a,...}
+			return s:gsub("(@?)@(%(?)(%d+)(%)?)",
+				function(e,o,n,c)
+					if e==""then
+						return a[tonumber(n)]..(o==""and c or"")
+					else
+						return"@"..o..n..c
+					end
+				end)
+		end
 end
-doors.intllib = S
 
 -- private data
 local _doors = {}
@@ -576,7 +588,7 @@ function doors.register_trapdoor(name, def)
 			local pn = placer:get_player_name()
 			local meta = minetest.get_meta(pos)
 			meta:set_string("doors_owner", pn)
-			meta:set_string("infotext", "Owned by "..pn)
+			meta:set_string("infotext", S("Owned by @1", pn))
 
 			return minetest.setting_getbool("creative_mode")
 		end
@@ -651,7 +663,7 @@ doors.register_trapdoor("doors:trapdoor", {
 })
 
 doors.register_trapdoor("doors:trapdoor_steel", {
-	description = "Steel Trapdoor",
+	description = S("Steel Trapdoor"),
 	inventory_image = "doors_trapdoor_steel.png",
 	wield_image = "doors_trapdoor_steel.png",
 	tile_front = "doors_trapdoor_steel.png",
@@ -748,35 +760,35 @@ function doors.register_fencegate(name, def)
 end
 
 doors.register_fencegate("doors:gate_wood", {
-	description = "Wooden Fence Gate",
+	description = S("Wooden Fence Gate"),
 	texture = "default_wood.png",
 	material = "default:wood",
 	groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2}
 })
 
 doors.register_fencegate("doors:gate_acacia_wood", {
-	description = "Acacia Fence Gate",
+	description = S("Acacia Fence Gate"),
 	texture = "default_acacia_wood.png",
 	material = "default:acacia_wood",
 	groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2}
 })
 
 doors.register_fencegate("doors:gate_junglewood", {
-	description = "Junglewood Fence Gate",
+	description = S("Junglewood Fence Gate"),
 	texture = "default_junglewood.png",
 	material = "default:junglewood",
 	groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2}
 })
 
 doors.register_fencegate("doors:gate_pine_wood", {
-	description = "Pine Fence Gate",
+	description = S("Pine Fence Gate"),
 	texture = "default_pine_wood.png",
 	material = "default:pine_wood",
 	groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2}
 })
 
 doors.register_fencegate("doors:gate_aspen_wood", {
-	description = "Aspen Fence Gate",
+	description = S("Aspen Fence Gate"),
 	texture = "default_aspen_wood.png",
 	material = "default:aspen_wood",
 	groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2}

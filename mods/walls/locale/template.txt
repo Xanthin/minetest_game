@@ -1,0 +1,7 @@
+# Template for translations of walls mod
+# last update: 2016/March/15
+
+#init.lua
+Cobblestone Wall = 
+Mossy Cobblestone Wall = 
+Desert Cobblestone Wall = 

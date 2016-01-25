@@ -1,0 +1,6 @@
+﻿# German Translation for give_initial_stuff Mod
+# Deutsche Übersetzung der give_initial_stuff Mod
+# last update: 2015/May/24
+# Author: Xanthin
+
+Giving initial stuff to player @1 = Gebe Spieler @1 Startausrüstung

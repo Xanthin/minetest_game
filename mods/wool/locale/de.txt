@@ -1,0 +1,22 @@
+﻿# German Translation for wool Mod
+# Deutsche Übersetzung der wool Mod
+# last update: 2015/May/24
+# Author: Xanthin
+
+#init.lua
+White = Weiße
+Grey = Graue
+Black = Schwarze
+Red = Rote
+Yellow = Gelbe
+Green = Grüne
+Cyan = Türkise
+Blue = Blaue
+Magenta = Magenta
+Orange = Orange
+Violet = Violette
+Brown = Braune
+Pink = Rosa
+Dark Grey = Dunkelgraue
+Dark Green = Dunkelgrüne
+@1 Wool = @1 Wolle

@@ -1,0 +1,14 @@
+﻿# German Translation for vessels Mod
+# Deutsche Übersetzung der vessels Mod
+# last update: 2015/May/24
+# Author: Xanthin
+
+#init.lua
+Vessels shelf = Gefäßregal
+@1 moves stuff in vessels shelf at @2 = @1 bewegt Dinge im Gefäßregal bei @2
+@1 moves stuff to vessels shelf at @2 = @1 verlagert Dinge in das Gefäßregal bei @2
+@1 takes stuff from vessels shelf at @2 = @1 nimmt Dinge aus dem Gefäßregal bei @2
+Glass Bottle (empty) = Glasflasche (leer)
+Drinking Glass (empty) = Trinkglas (leer)
+Heavy Steel Bottle (empty) = Schwere Stahlflasche (leer)
+Pile of Glass Fragments = Glasscherbenhaufen

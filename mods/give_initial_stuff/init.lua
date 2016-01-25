@@ -7,15 +7,25 @@ give_initial_stuff = {
 }
 
 -- Intllib
-give_initial_stuff = {}
-
 local S
 if minetest.get_modpath("intllib") then
 	S = intllib.Getter()
 else
-	S = function(s) return s end
+	S = function(s,a,...)
+			if a==nil then
+				return s
+			end
+			a={a,...}
+			return s:gsub("(@?)@(%(?)(%d+)(%)?)",
+				function(e,o,n,c)
+					if e==""then
+						return a[tonumber(n)]..(o==""and c or"")
+					else
+						return"@"..o..n..c
+					end
+				end)
+		end
 end
-give_initial_stuff.intllib = S
 
 function give_initial_stuff.give(player)
 	minetest.log("action",
