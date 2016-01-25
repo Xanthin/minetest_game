@@ -23,7 +23,6 @@ if minetest.get_modpath("intllib") then
 else
 	S = function(s) return s end
 end
-bucket.intllib = S
 
 local function check_protection(pos, name, text)
 	if minetest.is_protected(pos, name) then
@@ -202,7 +201,7 @@ bucket.register_liquid(
 	"default:river_water_flowing",
 	"bucket:bucket_river_water",
 	"bucket_river_water.png",
-	"River Water Bucket",
+	S("River Water Bucket"),
 	{water_bucket = 1},
 	true
 )

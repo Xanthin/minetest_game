@@ -1,9 +1,17 @@
 walls = {}
 
+-- Intllib
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+
 walls.register = function(wall_name, wall_desc, wall_texture, wall_mat, wall_sounds)
 	-- inventory node, and pole-type wall start item
 	minetest.register_node(wall_name, {
-		description = wall_desc,
+		description = S(wall_desc),
 		drawtype = "nodebox",
 		node_box = {
 			type = "connected",

@@ -12,7 +12,6 @@ if minetest.get_modpath("intllib") then
 else
 	S = function(s) return s end
 end
-dye.intllib = S
 
 -- Make dye names and descriptions available globally
 

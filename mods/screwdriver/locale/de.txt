@@ -1,0 +1,7 @@
+﻿# German Translation for screwdriver Mod
+# Deutsche Übersetzung der screwdriver Mod
+# last update: 2015/May/24
+# Author: Xanthin
+
+#init.lua
+Screwdriver (left-click rotates face, right-click rotates axis) = Schraubendreher (Linksklick dreht Front, \nRechtsklick dreht Achse)

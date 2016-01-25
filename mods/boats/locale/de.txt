@@ -1,0 +1,7 @@
+﻿# German Translation for boats Mod
+# Deutsche Übersetzung der boats Mod
+# last update: 2015/May/24
+# Author: Xanthin
+
+#init.lua
+Boat = Boot

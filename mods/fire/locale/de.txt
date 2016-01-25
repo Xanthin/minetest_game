@@ -1,0 +1,8 @@
+﻿# German Translation for fire Mod
+# Deutsche Übersetzung der fire Mod
+# last update: 2016/March/15
+# Author: Xanthin
+
+#init.lua
+Permanent Flame = Dauerhafte Flamme
+Flint and Steel = Feuerstein und Stahl

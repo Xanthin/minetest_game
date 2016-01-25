@@ -1,0 +1,21 @@
+﻿# German Translation for dye Mod
+# Deutsche Übersetzung der dye Mod
+# last update: 2015/May/24
+# Author: Xanthin
+
+#init.lua
+White dye = Weißer Farbstoff
+Grey dye = Grauer Farbstoff
+Dark grey dye = Dunkelgrauer Farbstoff
+Black dye = Schwarzer Farbstoff
+Violet dye = Violetter Farbstoff
+Blue dye = Blauer Farbstoff
+Cyan dye = Türkiser Farbstoff
+Dark green dye = Dunkelgrüner Farbstoff
+Green dye = Grüner Farbstoff
+Yellow dye = Gelber Farbstoff
+Brown dye = Brauner Farbstoff
+Orange dye = Oranger Farbstoff
+Red dye = Roter Farbstoff
+Magenta dye = Magenta Farbstoff
+Pink dye = Rosa Farbstoff

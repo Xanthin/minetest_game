@@ -1,2 +1,6 @@
+# Template for translations of fire mod
+# last update: 2016/March/15
+
 #init.lua
-Fire = 
+Permanent Flame = 
+Flint and Steel = 

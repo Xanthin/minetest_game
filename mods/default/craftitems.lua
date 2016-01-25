@@ -45,11 +45,11 @@ local function book_on_use(itemstack, user)
 	if owner == player_name then
 		formspec = "size[8,8]" .. default.gui_bg ..
 			default.gui_bg_img ..
-			"field[0.5,1;7.5,0;title;Title:;" ..
+			"field[0.5,1;7.5,0;title;" .. S("Title:") .. ";" ..
 				minetest.formspec_escape(title) .. "]" ..
-			"textarea[0.5,1.5;7.5,7;text;Contents:;" ..
+			"textarea[0.5,1.5;7.5,7;text;" .. S("Contents:") .. ";" ..
 				minetest.formspec_escape(text) .. "]" ..
-			"button_exit[2.5,7.5;3,1;save;Save]"
+			"button_exit[2.5,7.5;3,1;save;" .. S("Save") .. "]"
 	else
 		formspec = "size[8,8]" .. default.gui_bg ..
 			default.gui_bg_img ..
@@ -140,7 +140,7 @@ minetest.register_craftitem("default:book", {
 })
 
 minetest.register_craftitem("default:book_written", {
-	description = "Book With Text",
+	description = S("Book With Text"),
 	inventory_image = "default_book_written.png",
 	groups = {book = 1, not_in_creative_inventory = 1, flammable = 3},
 	stack_max = 1,
@@ -248,7 +248,7 @@ minetest.register_craftitem("default:obsidian_shard", {
 })
 
 minetest.register_craftitem("default:flint", {
-	description = "Flint",
+	description = S("Flint"),
 	inventory_image = "default_flint.png"
 })
 

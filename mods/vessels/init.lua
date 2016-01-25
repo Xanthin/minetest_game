@@ -1,16 +1,28 @@
 -- Minetest 0.4 mod: vessels
 -- See README.txt for licensing and other information.
 
--- Intllib
 vessels = {}
 
+-- Intllib
 local S
 if minetest.get_modpath("intllib") then
 	S = intllib.Getter()
 else
-	S = function(s) return s end
+	S = function(s,a,...)
+			if a==nil then
+				return s
+			end
+			a={a,...}
+			return s:gsub("(@?)@(%(?)(%d+)(%)?)",
+				function(e,o,n,c)
+					if e==""then
+						return a[tonumber(n)]..(o==""and c or"")
+					else
+						return"@"..o..n..c
+					end
+				end)
+		end
 end
-vessels.intllib = S
 
 local vessels_shelf_formspec =
 	"size[8,7;]" ..
