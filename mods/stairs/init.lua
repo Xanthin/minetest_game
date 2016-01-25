@@ -14,7 +14,6 @@ if minetest.get_modpath("intllib") then
 else
 	S = function(s) return s end
 end
-stairs.intllib = S
 
 
 -- Register aliases for new pine node names
@@ -295,29 +294,29 @@ stairs.register_stair_and_slab("pine_wood", "default:pine_wood",
 stairs.register_stair_and_slab("acacia_wood", "default:acacia_wood",
 		{snappy = 2, choppy = 2, oddly_breakable_by_hand = 2, flammable = 3},
 		{"default_acacia_wood.png"},
-		"Acacia Wood Stair",
-		"Acacia Wood Slab",
+		S("Acacia Wood Stair"),
+		S("Acacia Wood Slab"),
 		default.node_sound_wood_defaults())
 
 stairs.register_stair_and_slab("aspen_wood", "default:aspen_wood",
 		{snappy = 2, choppy = 2, oddly_breakable_by_hand = 2, flammable = 3},
 		{"default_aspen_wood.png"},
-		"Aspen Wood Stair",
-		"Aspen Wood Slab",
+		S("Aspen Wood Stair"),
+		S("Aspen Wood Slab"),
 		default.node_sound_wood_defaults())
 
 stairs.register_stair_and_slab("stone", "default:stone",
 		{cracky = 3},
 		{"default_stone.png"},
-		("Stone Stair"),
-		("Stone Slab"),
+		S("Stone Stair"),
+		S("Stone Slab"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("cobble", "default:cobble",
 		{cracky = 3},
 		{"default_cobble.png"},
-		("Cobblestone Stair"),
-		("Cobblestone Slab"),
+		S("Cobblestone Stair"),
+		S("Cobblestone Slab"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("stonebrick", "default:stonebrick",
@@ -386,34 +385,34 @@ stairs.register_stair_and_slab("brick", "default:brick",
 stairs.register_stair_and_slab("straw", "farming:straw",
 		{snappy = 3, flammable = 4},
 		{"farming_straw.png"},
-		"Straw Stair",
-		"Straw Slab",
+		S("Straw Stair"),
+		S("Straw Slab"),
 		default.node_sound_leaves_defaults())
 
 stairs.register_stair_and_slab("steelblock", "default:steelblock",
 		{cracky = 1, level = 2},
 		{"default_steel_block.png"},
-		"Steel Block Stair",
-		"Steel Block Slab",
+		S("Steel Block Stair"),
+		S("Steel Block Slab"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("copperblock", "default:copperblock",
 		{cracky = 1, level = 2},
 		{"default_copper_block.png"},
-		"Copper Block Stair",
-		"Copper Block Slab",
+		S("Copper Block Stair"),
+		S("Copper Block Slab"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("bronzeblock", "default:bronzeblock",
 		{cracky = 1, level = 2},
 		{"default_bronze_block.png"},
-		"Bronze Block Stair",
-		"Bronze Block Slab",
+		S("Bronze Block Stair"),
+		S("Bronze Block Slab"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("goldblock", "default:goldblock",
 		{cracky = 1},
 		{"default_gold_block.png"},
-		"Gold Block Stair",
-		"Gold Block Slab",
+		S("Gold Block Stair"),
+		S("Gold Block Slab"),
 		default.node_sound_stone_defaults())

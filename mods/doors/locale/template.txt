@@ -1,7 +1,16 @@
+# Template for translations of doors mod
+# last update: 2016/March/21
+
 #init.lua
 Wooden Door = 
 Steel Door = 
 Glass Door = 
 Obsidian Glass Door = 
 Trapdoor = 
+Steel Trapdoor = 
 Owned by @1 = 
+Wooden Fence Gate = 
+Acacia Fence Gate = 
+Junglewood Fence Gate = 
+Pine Fence Gate = 
+Aspen Fence Gate = 

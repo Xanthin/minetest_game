@@ -7,7 +7,6 @@ if minetest.get_modpath("intllib") then
 else
 	S = function(s) return s end
 end
-xpanes.intllib = S
 
 local function rshift(x, by)
 	return math.floor(x / 2 ^ by)

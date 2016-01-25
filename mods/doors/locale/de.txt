@@ -1,0 +1,18 @@
+﻿# German Translation for doors Mod
+# Deutsche Übersetzung der doors Mod
+# last update: 2016/March/21
+# Author: Xanthin
+
+#init.lua
+Wooden Door = Holztür
+Steel Door = Stahltür
+Glass Door = Glastür
+Obsidian Glass Door = Obsidianglastür
+Trapdoor = Falltür
+Steel Trapdoor = Stahlfalltür
+Owned by @1 = Gehört @1
+Wooden Fence Gate = Holzzauntor
+Acacia Fence Gate = Akazienzauntor
+Junglewood Fence Gate = Tropenholzzauntor
+Pine Fence Gate = Kiefernzauntor
+Aspen Fence Gate = Espenzauntor

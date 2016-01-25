@@ -12,7 +12,6 @@ if minetest.get_modpath("intllib") then
 else
 	S = function(s) return s end
 end
-fire.intllib = S
 
 
 -- Register flame nodes
@@ -53,7 +52,7 @@ minetest.register_node("fire:basic_flame", {
 })
 
 minetest.register_node("fire:permanent_flame", {
-	description = "Permanent Flame",
+	description = S("Permanent Flame"),
 	drawtype = "firelike",
 	tiles = {
 		{
@@ -81,7 +80,7 @@ minetest.register_node("fire:permanent_flame", {
 })
 
 minetest.register_tool("fire:flint_and_steel", {
-	description = "Flint and Steel",
+	description = S("Flint and Steel"),
 	inventory_image = "fire_flint_steel.png",
 	on_use = function(itemstack, user, pointed_thing)
 		local player_name = user:get_player_name()

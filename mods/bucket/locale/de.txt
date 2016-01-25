@@ -1,0 +1,10 @@
+﻿# German Translation for bucket Mod
+# Deutsche Übersetzung der bucket Mod
+# last update: 2015/September/18
+# Author: Xanthin
+
+#init.lua
+Empty Bucket = Leerer Eimer
+Water Bucket = Wassereimer
+River Water Bucket = Flusswassereimer
+Lava Bucket = Lavaeimer

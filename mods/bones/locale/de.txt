@@ -1,0 +1,10 @@
+﻿# German Translation for bones Mod
+# Deutsche Übersetzung der bones Mod
+# last update: 2015/May/24
+# Author: Xanthin
+
+#init.lua
+Bones = Gebeine
+@1's old bones = @1's alte Gebeine
+@1's fresh bones = @1's frische Gebeine
+@1's bones = @1's Gebeine

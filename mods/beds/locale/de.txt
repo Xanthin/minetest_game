@@ -1,0 +1,17 @@
+﻿# German Translation for beds Mod
+# Deutsche Übersetzung der beds Mod
+# last update: 2015/May/24
+# Author: Xanthin
+
+#beds.lua
+Fancy Bed = Schickes Bett
+Simple Bed = Einfaches Bett
+
+#functions.lua
+@1 of @2 players are in bed] = @1 von @2 Spielern sind im Bett]
+Good morning. = Guten Morgen.
+Force night skip = Überspringen der Nacht erzwingen
+You can only sleep at night. = Du kannst nur nachts schlafen.
+
+#init.lua
+Leave Bed = Bett verlassen

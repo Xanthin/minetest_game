@@ -10,7 +10,6 @@ if minetest.get_modpath("intllib") then
 else
 	S = function(s) return s end
 end
-sethome.intllib = S
 
 local function loadhomes()
     local input = io.open(homes_file, "r")

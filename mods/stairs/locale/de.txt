@@ -1,0 +1,48 @@
+﻿# German Translation for stairs Mod
+# Deutsche Übersetzung der stairs Mod
+# last update: 2016/January/25
+# Author: Xanthin
+
+#init.lua
+Wooden Stair = Holztreppe
+Wooden Slab = Holzplatte
+Stone Stair = Steintreppe
+Stone Slab = Steinplatte
+Cobblestone Stair = Bruchsteintreppe
+Cobblestone Slab = Bruchsteinplatte
+Desertstone Stair = Wüstensteintreppe
+Desertstone Slab = Wüstensteinplatte
+Desert Cobblestone Stair = Wüstenbruchsteintreppe
+Desert Cobblestone Slab = Wüstenbruchsteinplatte
+Desert Stone Brick Stair = Wüstensteinziegeltreppe
+Desert Stone Brick Slab = Wüstensteinziegelplatte
+Brick Stair = Ziegeltreppe
+Brick Slab = Ziegelplatte
+Sandstone Stair = Sandsteintreppe
+Sandstone Slab = Sandsteinplatte
+Sandstone Brick Stair = Sandsteinziegeltreppe
+Sandstone Brick Slab = Sandsteinziegelplatte
+Junglewood Stair = Tropenholztreppe
+Junglewood Slab = Tropenholzplatte
+Stone Brick Stair = Steinziegeltreppe
+Stone Brick Slab = Steinziegelplatte
+Pine Wood Stair = Kiefernholztreppe
+Pine Wood Slab = Kiefernholzplatte
+Acacia Wood Stair = Akazienholztreppe
+Acacia Wood Slab = Akazienholzplatte
+Obsidian Stair = Obsidiantreppe
+Obsidian Slab = Obsidianplatte
+Obsidian Brick Stair = Obsidianziegeltreppe
+Obsidian Brick Slab = Obsidianziegelplatte
+Straw Stair = Strohtreppe
+Straw Slab = Strohplatte
+Steel Block Stair = Stahlblocktreppe
+Steel Block Slab = Stahlblockplatte
+Copper Block Stair = Kupferblocktreppe
+Copper Block Slab = Kupferblockplatte
+Bronze Block Stair = Bronzeblocktreppe
+Bronze Block Slab = Bronzeblockplatte
+Gold Block Stair = Goldblocktreppe
+Gold Block Slab = Goldblockplatte
+Aspen Wood Stair = Espenholztreppe
+Aspen Wood Slab = Espenholzplatte

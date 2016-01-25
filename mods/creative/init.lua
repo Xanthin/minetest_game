@@ -4,6 +4,27 @@ creative = {}
 local player_inventory = {}
 local creative_mode = minetest.setting_getbool("creative_mode")
 
+-- Intllib
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s,a,...)
+			if a==nil then
+				return s
+			end
+			a={a,...}
+			return s:gsub("(@?)@(%(?)(%d+)(%)?)",
+				function(e,o,n,c)
+					if e==""then
+						return a[tonumber(n)]..(o==""and c or"")
+					else
+						return"@"..o..n..c
+					end
+				end)
+		end
+end
+
 -- Create detached creative inventory after loading all mods
 creative.init_creative_inventory = function(player)
 	local player_name = player:get_player_name()
@@ -39,8 +60,8 @@ creative.init_creative_inventory = function(player)
 			local player_name, stack_name = player:get_player_name(), stack:get_name()
 			--print(player_name .. " takes item from creative inventory; listname = " .. listname .. ", index = " .. index .. ", stack = " .. dump(stack:to_table()))
 			if stack then
-				minetest.log("action", player_name .. " takes " .. stack_name .. " from creative inventory")
-				--print("Stack name: " .. stack_name .. ", Stack count: " .. stack:get_count())
+				minetest.log("action", S("@1 takes @2 from creative inventory", player_name, stack_name))
+				--print("stack:get_name()="..dump(stack:get_name())..", stack:get_count()="..dump(stack:get_count()))
 			end
 		end,
 	})
@@ -120,13 +141,13 @@ creative.set_creative_formspec = function(player, start_i)
 		button[7.25,3.2;0.8,0.9;creative_next;>]
 		button[2.1,3.4;0.8,0.5;creative_search;?]
 		button[2.75,3.4;0.8,0.5;creative_clear;X]
-		tooltip[creative_search;Search]
-		tooltip[creative_clear;Reset]
-		listring[current_player;main]
 		]] ..
+		"tooltip[creative_search;"..S("Search").."]"..
+		"tooltip[creative_clear;"..S("Reset").."]"..
+		"listring[current_player;main]"..
 		"field[0.3,3.5;2.2,1;creative_filter;;" .. inv.filter .. "]" ..
 		"listring[detached:creative_" .. player_name .. ";main]" ..
-		"tabheader[0,0;creative_tabs;Crafting,All,Nodes,Tools,Items;" .. tostring(inv.tab_id) .. ";true;false]" ..
+		"tabheader[0,0;creative_tabs;"..S("Crafting,All,Nodes,Tools,Items")..";" .. tostring(inv.tab_id) .. ";true;false]" ..
 		"list[detached:creative_" .. player_name .. ";main;0,0;8,3;" .. tostring(start_i) .. "]" ..
 		"table[6.05,3.35;1.15,0.5;pagenum;#FFFF00," .. tostring(pagenum) .. ",#FFFFFF,/ " .. tostring(pagemax) .. "]" ..
 		default.get_hotbar_bg(0,4.7) ..
@@ -145,10 +166,10 @@ creative.set_crafting_formspec = function(player)
 		list[detached:creative_trash;main;0,2.75;1,1;]
 		image[0.06,2.85;0.8,0.8;creative_trash_icon.png]
 		image[5,1.75;1,1;gui_furnace_arrow_bg.png^[transformR270]
-		tabheader[0,0;creative_tabs;Crafting,All,Nodes,Tools,Items;1;true;false]
-		listring[current_player;main]
-		listring[current_player;craft]
 		]] ..
+		"tabheader[0,0;creative_tabs;"..S("Crafting,All,Nodes,Tools,Items")..";1;true;false]"..
+		"listring[current_player;main]"..
+		"listring[current_player;craft]"..
 		default.get_hotbar_bg(0,4.7) ..
 		default.gui_bg .. default.gui_bg_img .. default.gui_slots
 	)
