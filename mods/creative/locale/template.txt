@@ -1,0 +1,5 @@
+#init.lua
+@1 takes @2 from creative inventory = 
+Search = 
+Reset = 
+Crafting,All,Nodes,Tools,Items = 

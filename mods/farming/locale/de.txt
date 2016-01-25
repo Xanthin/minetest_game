@@ -1,0 +1,31 @@
+﻿# German Translation for farming Mod
+# Deutsche Übersetzung der farming Mod
+# last update: 2015/Aug/27
+# Author: Xanthin
+
+#init.lua
+Wheat = Weizen
+Wheat seed = Weizenkörner
+Flour = Mehl
+Bread = Brot
+Cotton = Baumwolle
+Cotton seed = Baumwollsamen
+
+#hoes.lua
+Wooden Hoe = Holzhacke
+Stone Hoe = Steinhacke
+Steel Hoe = Stahlhacke
+Bronze Hoe = Bronzehacke
+Mese Hoe = Mesehacke
+Diamond Hoe = Diamanthacke
+
+#nodes.lua
+Soil = Ackerboden
+Wet Soil = Bewässerter Ackerboden
+Desert Sand Soil = Wüstenacker
+Wet Desert Sand Soil = Bewässerter Wüstenacker
+Straw = Stroh
+
+#api.lua
+Hoe = Hacke
+Seed = Samen

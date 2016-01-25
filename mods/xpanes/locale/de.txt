@@ -1,0 +1,8 @@
+﻿# German Translation for xpanes Mod
+# Deutsche Übersetzung der xpanes Mod
+# last update: 2015/May/24
+# Author: Xanthin
+
+#init.lua
+Glass Pane = Glasscheibe
+Iron bar = Eisenstange
