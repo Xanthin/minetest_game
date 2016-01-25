@@ -1,0 +1,9 @@
+# German Translation for walls Mod
+# Deutsche Übersetzung der walls Mod
+# last update: 2016/March/15
+# Author: Xanthin
+
+#init.lua
+Cobblestone Wall = Bruchsteinmauer
+Mossy Cobblestone Wall = Bemosste Bruchsteinmauer
+Desert Cobblestone Wall = Wüstenbruchsteinmauer

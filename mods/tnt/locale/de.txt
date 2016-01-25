@@ -1,0 +1,9 @@
+﻿# German Translation for tnt Mod
+# Deutsche Übersetzung der tnt Mod
+# last update: 2016/January/25
+# Author: Xanthin
+
+#init.lua
+TNT = TNT
+Gun Powder = Schießpulver
+[TNT] Loaded! = [TNT] Geladen!
