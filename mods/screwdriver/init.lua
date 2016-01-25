@@ -7,7 +7,6 @@ if minetest.get_modpath("intllib") then
 else
 	S = function(s) return s end
 end
-screwdriver.intllib = S
 
 local function nextrange(x, max)
 	x = x + 1

@@ -354,7 +354,7 @@ minetest.register_node("default:dirt_with_grass_footsteps", {
 })
 
 minetest.register_node("default:dirt_with_dry_grass", {
-	description = "Dirt with Dry Grass",
+	description = S("Dirt with Dry Grass"),
 	tiles = {"default_dry_grass.png",
 		"default_dirt.png",
 		{name = "default_dirt.png^default_dry_grass_side.png",
@@ -747,7 +747,7 @@ minetest.register_node("default:pine_sapling", {
 
 
 minetest.register_node("default:acacia_tree", {
-	description = "Acacia Tree",
+	description = S("Acacia Tree"),
 	tiles = {"default_acacia_tree_top.png", "default_acacia_tree_top.png",
 		"default_acacia_tree.png"},
 	paramtype2 = "facedir",
@@ -759,7 +759,7 @@ minetest.register_node("default:acacia_tree", {
 })
 
 minetest.register_node("default:acacia_wood", {
-	description = "Acacia Wood Planks",
+	description = S("Acacia Wood Planks"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"default_acacia_wood.png"},
@@ -769,7 +769,7 @@ minetest.register_node("default:acacia_wood", {
 })
 
 minetest.register_node("default:acacia_leaves", {
-	description = "Acacia Leaves",
+	description = S("Acacia Leaves"),
 	drawtype = "allfaces_optional",
 	visual_scale = 1.3,
 	tiles = {"default_acacia_leaves.png"},
@@ -790,7 +790,7 @@ minetest.register_node("default:acacia_leaves", {
 })
 
 minetest.register_node("default:acacia_sapling", {
-	description = "Acacia Tree Sapling",
+	description = S("Acacia Tree Sapling"),
 	drawtype = "plantlike",
 	visual_scale = 1.0,
 	tiles = {"default_acacia_sapling.png"},
@@ -827,7 +827,7 @@ minetest.register_node("default:acacia_sapling", {
 })
 
 minetest.register_node("default:aspen_tree", {
-	description = "Aspen Tree",
+	description = S("Aspen Tree"),
 	tiles = {"default_aspen_tree_top.png", "default_aspen_tree_top.png",
 		"default_aspen_tree.png"},
 	paramtype2 = "facedir",
@@ -839,7 +839,7 @@ minetest.register_node("default:aspen_tree", {
 })
 
 minetest.register_node("default:aspen_wood", {
-	description = "Aspen Wood Planks",
+	description = S("Aspen Wood Planks"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"default_aspen_wood.png"},
@@ -849,7 +849,7 @@ minetest.register_node("default:aspen_wood", {
 })
 
 minetest.register_node("default:aspen_leaves", {
-	description = "Aspen Leaves",
+	description = S("Aspen Leaves"),
 	drawtype = "allfaces_optional",
 	visual_scale = 1.3,
 	tiles = {"default_aspen_leaves.png"},
@@ -870,7 +870,7 @@ minetest.register_node("default:aspen_leaves", {
 })
 
 minetest.register_node("default:aspen_sapling", {
-	description = "Aspen Tree Sapling",
+	description = S("Aspen Tree Sapling"),
 	drawtype = "plantlike",
 	visual_scale = 1.0,
 	tiles = {"default_aspen_sapling.png"},
@@ -1145,7 +1145,7 @@ end
 
 
 minetest.register_node("default:dry_grass_1", {
-	description = "Dry Grass",
+	description = S("Dry Grass"),
 	drawtype = "plantlike",
 	waving = 1,
 	tiles = {"default_dry_grass_1.png"},
@@ -1174,7 +1174,7 @@ minetest.register_node("default:dry_grass_1", {
 
 for i = 2, 5 do
 	minetest.register_node("default:dry_grass_" .. i, {
-		description = "Dry Grass",
+		description = S("Dry Grass"),
 		drawtype = "plantlike",
 		waving = 1,
 		tiles = {"default_dry_grass_" .. i .. ".png"},
@@ -1599,14 +1599,12 @@ minetest.register_node("default:chest", {
 		  player:get_player_name(), minetest.pos_to_string(pos)))
 	end,
     on_metadata_inventory_put = function(pos, listname, index, stack, player)
-		minetest.log("action", player:get_player_name() ..
-			" moves " .. stack:get_name() ..
-			" to chest at " .. minetest.pos_to_string(pos))
+		minetest.log("action", S("@1 moves @2 to chest at @3",
+			player:get_player_name(), stack:get_name(), minetest.pos_to_string(pos)))
 	end,
     on_metadata_inventory_take = function(pos, listname, index, stack, player)
-		minetest.log("action", player:get_player_name() ..
-			" takes " .. stack:get_name() ..
-			" from chest at " .. minetest.pos_to_string(pos))
+		minetest.log("action", S("@1 takes @2 from chest at @3",
+			player:get_player_name(), stack:get_name(), minetest.pos_to_string(pos)))
 	end,
 	on_blast = function(pos)
 		local drops = {}
@@ -1666,14 +1664,12 @@ minetest.register_node("default:chest_locked", {
 		return stack:get_count()
 	end,
     on_metadata_inventory_put = function(pos, listname, index, stack, player)
-		minetest.log("action", player:get_player_name() ..
-			" moves " .. stack:get_name() ..
-			" to locked chest at " .. minetest.pos_to_string(pos))
+		minetest.log("action", S("@1 moves @2 to locked chest at @3",
+			player:get_player_name(), stack:get_name(), minetest.pos_to_string(pos)))
 	end,
     on_metadata_inventory_take = function(pos, listname, index, stack, player)
-		minetest.log("action", player:get_player_name() ..
-			" takes " .. stack:get_name()  ..
-			" from locked chest at " .. minetest.pos_to_string(pos))
+		minetest.log("action", S("@1 takes @2 from locked chest at @3",
+			player:get_player_name(), stack:get_name(), minetest.pos_to_string(pos)))
 	end,
 	on_rightclick = function(pos, node, clicker, itemstack, pointed_thing)
 		local meta = minetest.get_meta(pos)
@@ -1750,7 +1746,7 @@ minetest.register_node("default:bookshelf", {
 
 local function register_sign(material, desc, def)
 	minetest.register_node("default:sign_wall_" .. material, {
-		description = desc .. " Sign",
+		description = S(desc .. " Sign"),
 		drawtype = "nodebox",
 		tiles = {"default_sign_wall_" .. material .. ".png"},
 		inventory_image = "default_sign_" .. material .. ".png",
@@ -1803,7 +1799,7 @@ register_sign("steel", "Steel", {
 })
 
 minetest.register_node("default:ladder_wood", {
-	description = "Wooden Ladder",
+	description = S("Wooden Ladder"),
 	drawtype = "signlike",
 	tiles = {"default_ladder_wood.png"},
 	inventory_image = "default_ladder_wood.png",
@@ -1826,7 +1822,7 @@ minetest.register_node("default:ladder_wood", {
 })
 
 minetest.register_node("default:ladder_steel", {
-	description = "Steel Ladder",
+	description = S("Steel Ladder"),
 	drawtype = "signlike",
 	tiles = {"default_ladder_steel.png"},
 	inventory_image = "default_ladder_steel.png",
@@ -1855,7 +1851,7 @@ default.register_fence("default:fence_wood", {
 })
 
 default.register_fence("default:fence_acacia_wood", {
-	description = "Acacia Fence",
+	description = S("Acacia Fence"),
 	texture = "default_fence_acacia_wood.png",
 	material = "default:acacia_wood",
 	groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2},
@@ -1863,7 +1859,7 @@ default.register_fence("default:fence_acacia_wood", {
 })
 
 default.register_fence("default:fence_junglewood", {
-	description = "Junglewood Fence",
+	description = S("Junglewood Fence"),
 	texture = "default_fence_junglewood.png",
 	material = "default:junglewood",
 	groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2},
@@ -1871,7 +1867,7 @@ default.register_fence("default:fence_junglewood", {
 })
 
 default.register_fence("default:fence_pine_wood", {
-	description = "Pine Fence",
+	description = S("Pine Fence"),
 	texture = "default_fence_pine_wood.png",
 	material = "default:pine_wood",
 	groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2},
@@ -1879,7 +1875,7 @@ default.register_fence("default:fence_pine_wood", {
 })
 
 default.register_fence("default:fence_aspen_wood", {
-	description = "Aspen Fence",
+	description = S("Aspen Fence"),
 	texture = "default_fence_aspen_wood.png",
 	material = "default:aspen_wood",
 	groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2},

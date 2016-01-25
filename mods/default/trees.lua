@@ -72,12 +72,12 @@ function default.grow_sapling(pos)
 			default.grow_new_pine_tree(pos)
 		end
 	elseif node.name == "default:acacia_sapling" then
-		minetest.log("action", "An acacia sapling grows into a tree at "..
-			minetest.pos_to_string(pos))
+		minetest.log("action", S("An acacia sapling grows into a tree at @1",
+			minetest.pos_to_string(pos)))
 		default.grow_new_acacia_tree(pos)
 	elseif node.name == "default:aspen_sapling" then
-		minetest.log("action", "An aspen sapling grows into a tree at "..
-			minetest.pos_to_string(pos))
+		minetest.log("action", S("An aspen sapling grows into a tree at @1",
+			minetest.pos_to_string(pos)))
 		default.grow_new_aspen_tree(pos)
 	end
 end

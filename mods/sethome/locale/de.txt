@@ -1,0 +1,12 @@
+﻿# German Translation for sethome Mod
+# Deutsche Übersetzung der sethome Mod
+# last update: 2015/May/24
+# Author: Xanthin
+
+#init.lua
+Can use /sethome and /home = Kann /sethome und /home benutzen
+Teleport you to your home point = Teleportiert Dich zu Deiner Ausgangsposition
+Teleported to home! = Zur Ausgangsposition teleportiert!
+Set a home using /sethome = Bestimme eine Ausgangsposition mit /sethome
+Set your home point = Bestimme Deine Ausgangsposition
+Home set! = Ausgangsposition festgelegt!
