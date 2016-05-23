@@ -1,0 +1,32 @@
+# Italian Translation for farming Mod
+# Traduzione italiana del modulo farming
+# Last update/Ultimo aggiornamento: 2016/05/23
+# Author/Autore: Emon
+
+
+#init.lua
+Wheat = Grano
+Wheat seed = Seme di grano
+Flour = Farina
+Bread = Pane
+Cotton = Cotone
+Cotton seed = Seme di cotone
+
+#hoes.lua
+Wooden Hoe = Zappa di legno
+Stone Hoe = Zappa di pietra
+Steel Hoe = Zappa di acciaio
+Bronze Hoe = Zappa di bronzo
+Mese Hoe = Zappa di mese
+Diamond Hoe = Zappa di diamante
+
+#nodes.lua
+Soil = Terreno coltivabile
+Wet Soil = Terreno coltivabile bagnato
+Desert Sand Soil = Terreno coltivabile di sabbia del deserto
+Wet Desert Sand Soil = Terreno coltivabile di sabbia del deserto bagnata
+Straw = Paglia
+
+#api.lua
+Hoe = Zappa
+Seed = Seme

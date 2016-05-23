@@ -1,0 +1,11 @@
+# Italian Translation for bucket Mod
+# Traduzione italiana del modulo bucket
+# Last update/Ultimo aggiornamento: 2016/05/23
+# Author/Autore: Emon
+
+
+#init.lua
+Empty Bucket = Secchio vuoto
+Water Bucket = Secchio di acqua
+River Water Bucket = Secchio di acqua di fiume
+Lava Bucket = Secchio di lava

@@ -1,0 +1,23 @@
+# Italian Translation for wool Mod
+# Traduzione italiana del modulo wool
+# Last update/Ultimo aggiornamento: 2016/05/23
+# Author/Autore: Emon
+
+
+#init.lua
+White = bianca
+Grey = grigia
+Black = nera
+Red = rossa
+Yellow = gialla
+Green = verde
+Cyan = ciano
+Blue = blu
+Magenta = magenta
+Orange = arancione
+Violet = viola
+Brown = marrone
+Pink = rosa
+Dark Grey = grigia scura
+Dark Green = verde scura
+ Wool =  Lana

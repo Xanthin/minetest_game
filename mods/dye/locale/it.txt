@@ -1,0 +1,22 @@
+# Italian Translation for dye Mod
+# Traduzione italiana del modulo dye
+# Last update/Ultimo aggiornamento: 2016/05/23
+# Author/Autore: Emon
+
+
+#init.lua
+White dye = Tintura bianca
+Grey dye = Tintura grigia
+Dark grey dye = Tintura grigia scura
+Black dye = Tintura nera
+Violet dye = Tintura viola
+Blue dye = Tintura blu
+Cyan dye = Tintura ciano
+Dark green dye = Tintura verde scura
+Green dye = Tintura verde
+Yellow dye = Tintura gialla
+Brown dye = Tintura marrone
+Orange dye = Tintura arancione
+Red dye = Tintura rossa
+Magenta dye = Tintura magenta
+Pink dye = Tintura rosa
