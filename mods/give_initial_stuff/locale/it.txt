@@ -1,0 +1,7 @@
+# Italian Translation for give_initial_stuff Mod
+# Traduzione italiana del modulo give_initial_stuff
+# Last update/Ultimo aggiornamento: 2016/05/23
+# Author/Autore: Emon
+
+
+Giving initial stuff to player @1 = Consegna delle cose iniziali a @1

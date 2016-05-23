@@ -1,0 +1,13 @@
+# Italian Translation for sethome Mod
+# Traduzione italiana del modulo sethome
+# Last update/Ultimo aggiornamento: 2016/05/23
+# Author/Autore: Emon
+
+
+#init.lua
+Can use /sethome and /home = Può usare /sethome e /home
+Teleport you to your home point = Vi teletrasporta alla vostra posizione di casa
+Teleported to home! = Teletrasportat* a casa!
+Set a home using /sethome = Imposta una posizione di casa usando /sethome
+Set your home point = Impostate la vostra posizione di casa
+Home set! = Casa impostata!
