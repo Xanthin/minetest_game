@@ -1,0 +1,49 @@
+# Italian Translation for stairs Mod
+# Traduzione italiana del modulo stairs
+# Last update/Ultimo aggiornamento: 2016/05/23
+# Author/Autore: Emon
+
+
+#init.lua
+Wooden Stair = Scala in legno
+Wooden Slab = Lastra in legno
+Stone Stair = Scala in pietra
+Stone Slab = Lastra in pietra
+Cobblestone Stair = Scala in ciottoli
+Cobblestone Slab = Lastra in ciottoli
+Desertstone Stair = Scala in pietra del deserto
+Desertstone Slab = Lastra in pietra del deserto
+Desert Cobblestone Stair = Scala in ciottoli del deserto
+Desert Cobblestone Slab = Lastra in ciottoli del deserto
+Desert Stone Brick Stair = Scala in mattoni di pietra del deserto
+Desert Stone Brick Slab = Lastra in mattoni di pietra del deserto
+Brick Stair = Scala di mattoni
+Brick Slab = Lastra di mattoni
+Sandstone Stair = Scala in arenaria
+Sandstone Slab = Lastra in arenaria
+Sandstone Brick Stair = Scala in mattoni di arenaria
+Sandstone Brick Slab = Lastra in mattoni di arenaria
+Junglewood Stair = Scala in legno della giungla
+Junglewood Slab = Lastra in legno della giungla
+Stone Brick Stair = Scala in mattoni di pietra
+Stone Brick Slab = Lastra in mattoni di pietra
+Pine Wood Stair = Scala in legno di pino
+Pine Wood Slab = Lastra in legno di pino
+Obsidian Stair = Scala in ossidiana
+Obsidian Slab = Lastra in ossidiana
+Obsidian Brick Stair = Scala in mattoni di ossidiana
+Obsidian Brick Slab = Lastra in mattoni di ossidiana
+Acacia Wood Stair = Scala in legno di acacia
+Acacia Wood Slab = Lastra in legno di acacia
+Aspen Wood Stair = Scala in legno di pioppo
+Aspen Wood Slab = Lastra in legno di pioppo
+Straw Stair = Scala in paglia
+Straw Slab = Lastra in paglia
+Steel Block Stair = Scala in blocco di acciaio
+Steel Block Slab = Lastra in blocco di acciaio
+Copper Block Stair = Scala in blocco di rame
+Copper Block Slab = Lastra in blocco di rame
+Bronze Block Stair = Scala in blocco di bronzo
+Bronze Block Slab = Lastra in blocco di bronzo
+Gold Block Stair = Scala in blocco di oro
+Gold Block Slab = Lastra in blocco di oro
