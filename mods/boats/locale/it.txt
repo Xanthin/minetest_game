@@ -1,0 +1,7 @@
+# Italian Translation for boats Mod
+# Traduzione italiana del modulo boats
+# Last update/Ultimo aggiornamento: 2016/05/23
+# Author/Autore: Emon
+
+#init.lua
+Boat = Barca

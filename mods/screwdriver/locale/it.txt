@@ -1,0 +1,8 @@
+# Italian Translation for screwdriver Mod
+# Traduzione italiana del modulo screwdriver
+# Last update/Ultimo aggiornamento: 2016/05/23
+# Author/Autore: Emon
+
+
+#init.lua
+Screwdriver (left-click rotates face, right-click rotates axis) = Cacciavite (click sinistro ruota la faccia, click destro ruota l'asse)
