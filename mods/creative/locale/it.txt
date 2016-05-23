@@ -1,0 +1,11 @@
+# Italian Translation for creative Mod
+# Traduzione italiana del modulo creative
+# Last update/Ultimo aggiornamento: 2016/05/23
+# Author/Autore: Emon
+
+
+#init.lua
+@1 takes @2 from creative inventory = @1 prende @2 dall'inventario creativo = 
+Search = Cercare
+Reset = Azzerare
+Crafting,All,Nodes,Tools,Items = Assemblaggio,Tutti,Nodi,Strumenti,Oggetti

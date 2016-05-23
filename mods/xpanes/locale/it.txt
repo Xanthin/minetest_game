@@ -1,0 +1,9 @@
+# Italian Translation for xpanes Mod
+# Traduzione italiana del modulo xpanes
+# Last update/Ultimo aggiornamento: 2016/05/23
+# Author/Autore: Emon
+
+
+#init.lua
+Glass Pane = Lastra di vetro
+Iron bar = Sbarra di ferro
