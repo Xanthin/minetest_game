@@ -1,0 +1,175 @@
+# Italian Translation for default Mod
+# Traduzione italiana del modulo default
+# Last update/Ultimo aggiornamento: 2016/05/23
+# Author/Autore: Emon
+
+
+#craftitems.lua
+Stick = Bastone
+Paper = Carta
+Title: = Titolo:
+Contents: = Contenuti:
+Save = Salvare
+Book = Libro
+Book With Text = Libro con testo
+Coal Lump = Grumo di carbone
+Iron Lump = Grumo di ferro
+Copper Lump = Grumo di rame
+Mese Crystal = Cristallo di mese
+Gold Lump = Grumo di oro
+Diamond = Diamante
+Clay Lump = Grumo di argilla
+Steel Ingot = Lingotto di acciaio
+Copper Ingot = Lingotto di rame
+Bronze Ingot = Lingotto di bronzo
+Gold Ingot = Lingotto di oro
+Mese Crystal Fragment = Frammento di cristallo di mese
+Clay Brick = Mattone di argilla
+Obsidian Shard = Scheggia di ossidiana
+Flint = Selce
+
+#furnance.lua
+Furnace = Fornace
+Furnace is empty = La fornace è vuota
+Furnance @1 Item: @2; Fuel: @3 = Fornace @1 Oggetto: @2; Combustibile: @3 = 
+Empty = vuota
+Not cookable = non cucinabile
+inactive = inattiva
+active = attiva
+
+#nodes
+Stone = Pietra
+Cobblestone = Ciottoli
+Stone Brick = Mattone di pietra
+Mossy Cobblestone = Ciottoli muschiosi
+Desert Stone = Pietra del deserto
+Desert Cobblestone = Ciottoli del deserto
+Desert Stone Brick = Mattone in pietra del deserto
+Sandstone = Arenaria
+Sandstone Brick = Mattone di arenaria
+Obsidian = Ossidiana
+Obsidian Brick = Mattone di ossidiana
+Dirt = Terra
+Dirt with Grass = Terra con erba
+Dirt with Grass and Footsteps = Terra con erba e impronte
+Dirt with Dry Grass = Terra con erba secca
+Dirt with Snow = Terra con neve
+Sand = Sabbia
+Desert Sand = Sabbia del deserto
+Gravel = Ghiaia
+Clay = Argilla
+Snow = Neve
+Snow Block = Blocco di neve
+Ice = Ghiaccio
+Tree = Albero
+Wooden Planks = Assi in legno
+Sapling = Alberello
+Leaves = Foglie
+Apple = Mela
+Jungle Tree = Albero della giungla
+Junglewood Planks = Assi in legno della giungla
+Jungle Leaves = Foglie della giungla
+Jungle Sapling = Alberello della giungla
+Pine Tree = Pino
+Pine Wood Planks = Assi in legno di pino
+Pine Needles = Aghi di pino
+Pine Sapling = Alberello di pino
+Acacia Tree = Acacia
+Acacia Wood Planks = Assi in legno di acacia
+Acacia Leaves = Foglie di acacia
+Acacia Tree Sapling = Alberello di acacia
+Aspen Tree = Pioppo
+Aspen Wood Planks = Assi in legno di pioppo
+Aspen Leaves = Foglie di pioppo
+Aspen Tree Sapling = Alberello di pioppo
+Coal Ore = Vena di carbone
+Coal Block = Blocco di carbone
+Iron Ore = Vena di ferro
+Steel Block = Blocco di acciaio
+Copper Ore = Vena di rame
+Copper Block = Blocco di rame
+Bronze Block = Blocco di bronzo
+Mese Ore = Vena di mese
+Mese Block = Blocco di mese
+Gold Ore = Vena di oro
+Gold Block = Blocco di oro
+Diamond Ore = Vena di diamante
+Diamond Block = Blocco di diamante
+Cactus = Cactus
+Papyrus = Papiro
+Dry Shrub = Arbusto secco
+Jungle Grass = Erba della giungla
+Grass = Erba
+Dry Grass = Erba secca
+Water Source = Fonte di acqua
+Flowing Water = Acqua corrente
+River Water Source = Fonte di acqua di fiume
+Flowing River Water = Acqua corrente di fiume
+Lava Source = Fonte di lava
+Flowing Lava = Lava corrente
+Torch = Torcia
+Chest = Cassa
+@1 moves stuff in chest at @2 = @1 sposta delle cose nella cassa alla posizione @2
+@1 moves @2 to chest at @3 = @1 mette @2 nella cassa alla posizione @3
+@1 takes @2 from chest at @3 = @ prende @2 dalla cassa alla posizione @3
+Locked Chest = Cassa con lucchetto
+Locked Chest (owned by @1) = Cassa con lucchetto (di proprietà di @1)
+@1 moves @2 to locked chest at @3 = @1 mette @2 nella cassa con lucchetto alla posizione @3
+@1 takes @2 from locked chest at @3 = @1 prende @2 dalla cassa con lucchetto alla posizione @3
+Bookshelf = Libreria
+@1 moves stuff in bookshelf at @2 = @1 sposta delle cose nella libreria alla posizione @2
+@1 moves stuff to bookshelf at @2 = @1 mette delle cose nella libreria alla posizione @2
+@1 takes stuff from bookshelf at @2 = @1 prende delle cose dalla libreria alla posizione @2
+@1 wrote \"@2\" to sign at @3 = @1 ha scritto \"@2\" sul cartello alla posizione @3
+Wooden Sign = Cartello in legno
+Steel Sign = Cartello in acciaio
+Wooden Ladder = Scala a pioli in legno
+Steel Ladder = Scala a pioli in acciaio
+Wooden Fence = Staccionata in legno
+Acacia Fence = Staccionata in legno di acacia
+Junglewood Fence = Staccionata in legno della giungla
+Pine Fence = Staccionata in legno di pino
+Aspen Fence = Staccionata in legno di pioppo
+Glass = Vetro
+Obsidian Glass = Vetro e ossidiana
+Rail = Binario
+Brick Block = Blocco di mattoni
+Mese Lamp = Lampada di mese
+Cloud = Nuvola
+Nyan Cat = Gatto Nyan
+Nyan Cat Rainbow = Arcobaleno del gatto Nyan
+
+#tools.lua
+Wooden Pickaxe = Piccone di legno
+Stone Pickaxe = Piccone di pietra
+Steel Pickaxe = Piccone di acciaio
+Bronze Pickaxe = Piccone di bronzo
+Mese Pickaxe = Piccone di mese
+Diamond Pickaxe = Piccone di diamante
+Wooden Shovel = Vanga di legno
+Stone Shovel = Vanga di pietra
+Steel Shovel = Vanga di acciaio
+Bronze Shovel = Vanga di bronzo
+Mese Shovel = Vanga di mese
+Diamond Shovel = Vanga di diamante
+Wooden Axe = Ascia di legno
+Stone Axe = Ascia di pietra
+Steel Axe = Ascia di acciaio
+Bronze Axe = Ascia di bronzo
+Mese Axe = Ascia di mese
+Diamond Axe = Ascia di diamante
+Wooden Sword = Spada di legno
+Stone Sword = Spada di pietra
+Steel Sword = Spada di acciaio
+Bronze Sword = Spada di bronzo
+Mese Sword = Spada di mese
+Diamond Sword = Spada di diamante
+
+#trees.lua
+A sapling grows into a tree at @1 = Un alberello diventa un albero alla posizione @1
+A jungle sapling grows into a tree at @1 = Un alberello della giungla diventa un albero alla posizione @1
+A pine sapling grows into a tree at @1 = Un alberello di pino diventa un albero alla posizione @1
+An acacia sapling grows into a tree at @1 = Un alberello di acacia diventa un albero alla posizione @1
+An aspen sapling grows into a tree at @1 = Un alberello di pioppo diventa un albero alla posizione @1
+Deprecated use of default.grow_tree = Uso deplorato di default.grow_tree
+Deprecated use of default.grow_jungle_tree = Uso deplorato di default.grow_jungle_tree

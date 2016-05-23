@@ -1,0 +1,19 @@
+# Italian Translation for doors Mod
+# Traduzione italiana del modulo doors
+# Last update/Ultimo aggiornamento: 2016/05/23
+# Author/Autore: Emon
+
+
+#init.lua
+Wooden Door = Porta di legno
+Steel Door = Porta di acciaio
+Glass Door = Porta di vetro
+Obsidian Glass Door = Porta di vetro e ossidiana
+Trapdoor = Botola
+Steel Trapdoor = Botola di acciaio
+Owned by @1 = Di proprietà di @1
+Wooden Fence Gate = Cancelletto della staccionata in legno
+Acacia Fence Gate = Cancelletto della staccionata in legno di acacia
+Junglewood Fence Gate = Cancelletto della staccionata in legno della giungla
+Pine Fence Gate = Cancelletto della staccionata in legno di pino
+Aspen Fence Gate = Cancelletto della staccionata in legno di pioppo
