@@ -1,0 +1,16 @@
+# Italian Translation for flowers Mod
+# Traduzione italiana del modulo flowers
+# Last update/Ultimo aggiornamento: 2016/05/23
+# Author/Autore: Emon
+
+
+#init.lua
+White dandelion = Dente di leone bianco
+Yellow Dandelion = Dente di leone giallo
+Blue Geranium = Geranio blu
+Rose = Rosa
+Orange Tulip = Tulipano arancione
+Viola = Viola
+Red Mushroom = Fungo rosso
+Brown Mushroom = Fungo marrone
+Waterlily = Ninfea
