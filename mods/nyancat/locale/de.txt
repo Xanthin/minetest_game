@@ -1,0 +1,7 @@
+# German Translation for nyancat Mod
+# Deutsche Übersetzung der nyancat Mod
+# last update: 2016/July/23
+# Author: Xanthin
+
+Nyan Cat = Nyan Cat
+Nyan Cat Rainbow = Nyan-Cat-Regenbogen
