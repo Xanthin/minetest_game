@@ -1,6 +1,6 @@
 ﻿# German Translation for default Mod
 # Deutsche Übersetzung der default Mod
-# last update: 2016/March/15
+# last update: 2016/July/23
 # Author: Xanthin
 
 #craftitems.lua
@@ -40,14 +40,18 @@ active = aktiv
 Stone = Stein
 Cobblestone = Bruchstein
 Stone Brick = Steinziegel
+Stone Block = Steinblock
 Mossy Cobblestone = Bemooster Bruchstein
 Desert Stone = Wüstenstein
 Desert Cobblestone = Wüstenbruchstein
 Desert Stone Brick = Wüstensteinziegel
+Desert Stone Block = Wüstensteinblock
 Sandstone = Sandstein
 Sandstone Brick = Sandsteinziegel
+Sandstone Block = Sandsteinblock
 Obsidian = Obsidian
 Obsidian Brick = Obsidianziegel
+Obsidian Block = Obsidianblock
 Dirt = Erde
 Dirt with Grass = Erde mit Gras
 Dirt with Grass and Footsteps = Erde mit Gras und Fußspuren
@@ -135,8 +139,6 @@ Rail = Schiene
 Brick Block = Ziegelblock
 Mese Lamp = Meselampe
 Cloud = Wolke
-Nyan Cat = Nyan Cat
-Nyan Cat Rainbow = Nyan-Cat-Regenbogen
 
 #tools.lua
 Wooden Pickaxe =  Holzspitzhacke

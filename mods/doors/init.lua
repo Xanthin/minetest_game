@@ -85,7 +85,7 @@ end
 -- this hidden node is placed on top of the bottom, and prevents
 -- nodes from being placed in the top half of the door.
 minetest.register_node("doors:hidden", {
-	description = "Hidden Door Segment",
+	description = S("Hidden Door Segment"),
 	-- can't use airlike otherwise falling nodes will turn to entities
 	-- and will be forever stuck until door is removed.
 	drawtype = "nodebox",

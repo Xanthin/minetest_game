@@ -358,8 +358,8 @@ stairs.register_stair_and_slab(
 	nil,
 	{cracky = 3},
 	{"default_mossycobble.png"},
-	"Mossy Cobblestone Stair",
-	"Mossy Cobblestone Slab",
+	S("Mossy Cobblestone Stair"),
+	S("Mossy Cobblestone Slab"),
 	default.node_sound_stone_defaults()
 )
 
@@ -378,8 +378,8 @@ stairs.register_stair_and_slab(
 	"default:stone_block",
 	{cracky = 2},
 	{"default_stone_block.png"},
-	"Stone Block Stair",
-	"Stone Block Slab",
+	S("Stone Block Stair"),
+	S("Stone Block Slab"),
 	default.node_sound_stone_defaults()
 )
 
@@ -388,8 +388,8 @@ stairs.register_stair_and_slab(
 	"default:desert_stone",
 	{cracky = 3},
 	{"default_desert_stone.png"},
-	"Desert Stone Stair",
-	"Desert Stone Slab",
+	S("Desert Stone Stair"),
+	S("Desert Stone Slab"),
 	default.node_sound_stone_defaults()
 )
 
@@ -418,8 +418,8 @@ stairs.register_stair_and_slab(
 	"default:desert_stone_block",
 	{cracky = 2},
 	{"default_desert_stone_block.png"},
-	"Desert Stone Block Stair",
-	"Desert Stone Block Slab",
+	S("Desert Stone Block Stair"),
+	S("Desert Stone Block Slab"),
 	default.node_sound_stone_defaults()
 )
 
@@ -448,8 +448,8 @@ stairs.register_stair_and_slab(
 	"default:sandstone_block",
 	{cracky = 2},
 	{"default_sandstone_block.png"},
-	"Sandstone Block Stair",
-	"Sandstone Block Slab",
+	S("Sandstone Block Stair"),
+	S("Sandstone Block Slab"),
 	default.node_sound_stone_defaults()
 )
 
@@ -478,8 +478,8 @@ stairs.register_stair_and_slab(
 	"default:obsidian_block",
 	{cracky = 1, level = 2},
 	{"default_obsidian_block.png"},
-	"Obsidian Block Stair",
-	"Obsidian Block Slab",
+	S("Obsidian Block Stair"),
+	S("Obsidian Block Slab"),
 	default.node_sound_stone_defaults()
 )
 

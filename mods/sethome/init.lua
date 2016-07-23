@@ -17,7 +17,7 @@ end
 local function loadhomes()
 	local input, err = io.open(homes_file, "r")
 	if not input then
-		return minetest.log("info", "Could not load player homes file: " .. err)
+		return minetest.log("info", S("Could not load player homes file: @1", err))
 	end
 
 	-- Iterate over all stored positions in the format "x y z player" for each line
@@ -46,7 +46,7 @@ sethome.set = function(name, pos)
 		io.close(output)
 		return true
 	end
-	minetest.log("action", "Unable to write to player homes file: " .. err)
+	minetest.log("action", S("Unable to write to player homes file: @1", err))
 	return false
 end
 
@@ -93,6 +93,6 @@ minetest.register_chatcommand("sethome", {
 		if player and sethome.set(name, player:getpos()) then
 			return true, S("Home set!")
 		end
-		return false, "Player not found!"
+		return false, S("Player not found!")
 	end,
 })
