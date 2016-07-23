@@ -1,12 +1,15 @@
 ﻿# German Translation for sethome Mod
 # Deutsche Übersetzung der sethome Mod
-# last update: 2015/May/24
+# last update: 2015/July/23
 # Author: Xanthin
 
 #init.lua
+Could not load player homes file: @1 = 
+Unable to write to player homes file: @1 = 
 Can use /sethome and /home = Kann /sethome und /home benutzen
 Teleport you to your home point = Teleportiert Dich zu Deiner Ausgangsposition
 Teleported to home! = Zur Ausgangsposition teleportiert!
 Set a home using /sethome = Bestimme eine Ausgangsposition mit /sethome
 Set your home point = Bestimme Deine Ausgangsposition
 Home set! = Ausgangsposition festgelegt!
+Player not found! = Spieler nicht gefunden!

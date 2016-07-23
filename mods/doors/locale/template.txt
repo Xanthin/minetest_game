@@ -2,6 +2,7 @@
 # last update: 2016/March/21
 
 #init.lua
+Hidden Door Segment = 
 Wooden Door = 
 Steel Door = 
 Glass Door = 

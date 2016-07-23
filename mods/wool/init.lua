@@ -1,4 +1,3 @@
-local wool = {}
 
 -- Intllib
 local S

@@ -1,9 +1,10 @@
 ﻿# German Translation for doors Mod
 # Deutsche Übersetzung der doors Mod
-# last update: 2016/March/21
+# last update: 2016/July/23
 # Author: Xanthin
 
 #init.lua
+Hidden Door Segment = Verborgenes Türsegment
 Wooden Door = Holztür
 Steel Door = Stahltür
 Glass Door = Glastür
