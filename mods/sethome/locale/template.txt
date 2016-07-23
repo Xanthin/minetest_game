@@ -1,7 +1,13 @@
+# Template for translations of sethome Mod
+# last update: 2016/July/23
+
 #init.lua
+Could not load player homes file: @1 = 
+Unable to write to player homes file: @1 = 
 Can use /sethome and /home = 
 Teleport you to your home point = 
 Teleported to home! = 
 Set a home using /sethome = 
 Set your home point = 
 Home set! = 
+Player not found! = 

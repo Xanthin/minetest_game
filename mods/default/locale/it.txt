@@ -136,8 +136,6 @@ Rail = Binario
 Brick Block = Blocco di mattoni
 Mese Lamp = Lampada di mese
 Cloud = Nuvola
-Nyan Cat = Gatto Nyan
-Nyan Cat Rainbow = Arcobaleno del gatto Nyan
 
 #tools.lua
 Wooden Pickaxe = Piccone di legno

@@ -215,7 +215,7 @@ minetest.register_node("default:stonebrick", {
 })
 
 minetest.register_node("default:stone_block", {
-	description = "Stone Block",
+	description = S("Stone Block"),
 	tiles = {"default_stone_block.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
@@ -259,7 +259,7 @@ minetest.register_node("default:desert_stonebrick", {
 })
 
 minetest.register_node("default:desert_stone_block", {
-	description = "Desert Stone Block",
+	description = S("Desert Stone Block"),
 	tiles = {"default_desert_stone_block.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
@@ -285,7 +285,7 @@ minetest.register_node("default:sandstonebrick", {
 })
 
 minetest.register_node("default:sandstone_block", {
-	description = "Sandstone Block",
+	description = S("Sandstone Block"),
 	tiles = {"default_sandstone_block.png"},
 	is_ground_content = false,
 	groups = {cracky = 2},
