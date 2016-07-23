@@ -1,0 +1,7 @@
+# Russian Translation for nyancat Mod
+# 
+# last update: 2016/July/23
+# Author: maximsecret
+
+Nyan Cat = Нян кэт
+Nyan Cat Rainbow = Радуга нян кэта

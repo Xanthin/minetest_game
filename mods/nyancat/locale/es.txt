@@ -1,0 +1,7 @@
+# Spanish Translation for nyancat Mod
+# 
+# last update: 2016/July/23
+# Author: Adimgar
+
+Nyan Cat = Nyan Cat
+Nyan Cat Rainbow = Nyan Cat Rainbow 

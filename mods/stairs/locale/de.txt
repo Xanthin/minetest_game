@@ -1,39 +1,51 @@
 ﻿# German Translation for stairs Mod
 # Deutsche Übersetzung der stairs Mod
-# last update: 2016/January/25
+# last update: 2016/July/23
 # Author: Xanthin
 
 #init.lua
 Wooden Stair = Holztreppe
 Wooden Slab = Holzplatte
-Stone Stair = Steintreppe
-Stone Slab = Steinplatte
-Cobblestone Stair = Bruchsteintreppe
-Cobblestone Slab = Bruchsteinplatte
-Desertstone Stair = Wüstensteintreppe
-Desertstone Slab = Wüstensteinplatte
-Desert Cobblestone Stair = Wüstenbruchsteintreppe
-Desert Cobblestone Slab = Wüstenbruchsteinplatte
-Desert Stone Brick Stair = Wüstensteinziegeltreppe
-Desert Stone Brick Slab = Wüstensteinziegelplatte
-Brick Stair = Ziegeltreppe
-Brick Slab = Ziegelplatte
-Sandstone Stair = Sandsteintreppe
-Sandstone Slab = Sandsteinplatte
-Sandstone Brick Stair = Sandsteinziegeltreppe
-Sandstone Brick Slab = Sandsteinziegelplatte
 Junglewood Stair = Tropenholztreppe
 Junglewood Slab = Tropenholzplatte
-Stone Brick Stair = Steinziegeltreppe
-Stone Brick Slab = Steinziegelplatte
 Pine Wood Stair = Kiefernholztreppe
 Pine Wood Slab = Kiefernholzplatte
 Acacia Wood Stair = Akazienholztreppe
 Acacia Wood Slab = Akazienholzplatte
+Aspen Wood Stair = Espenholztreppe
+Aspen Wood Slab = Espenholzplatte
+Stone Stair = Steintreppe
+Stone Slab = Steinplatte
+Cobblestone Stair = Bruchsteintreppe
+Cobblestone Slab = Bruchsteinplatte
+Mossy Cobblestone Stair = Bemooste Bruchsteintreppe
+Mossy Cobblestone Slab = Bemooste Bruchsteinplatte
+Stone Block Stair = Steinblocktreppe
+Stone Block Slab = Steinblockplatte
+Stone Brick Stair = Steinziegeltreppe
+Stone Brick Slab = Steinziegelplatte
+Desert Stone Stair = Wüstensteintreppe
+Desert Stone Slab = Wüstensteinplatte
+Desert Cobblestone Stair = Wüstenbruchsteintreppe
+Desert Cobblestone Slab = Wüstenbruchsteinplatte
+Desert Stone Brick Stair = Wüstensteinziegeltreppe
+Desert Stone Brick Slab = Wüstensteinziegelplatte
+Desert Stone Block Stair = Wüstensteinblocktreppe
+Desert Stone Block Slab = Wüstensteinblockplatte
+Sandstone Stair = Sandsteintreppe
+Sandstone Slab = Sandsteinplatte
+Sandstone Brick Stair = Sandsteinziegeltreppe
+Sandstone Brick Slab = Sandsteinziegelplatte
+Sandstone Block Stair = Sandsteinblocktreppe
+Sandstone Block Slab = Sandsteinblockplatte
 Obsidian Stair = Obsidiantreppe
 Obsidian Slab = Obsidianplatte
 Obsidian Brick Stair = Obsidianziegeltreppe
 Obsidian Brick Slab = Obsidianziegelplatte
+Obsidian Block Stair = Obsidianblocktreppe
+Obsidian Block Slab = Obsidianblockplatte
+Brick Stair = Ziegeltreppe
+Brick Slab = Ziegelplatte
 Straw Stair = Strohtreppe
 Straw Slab = Strohplatte
 Steel Block Stair = Stahlblocktreppe
@@ -44,5 +56,3 @@ Bronze Block Stair = Bronzeblocktreppe
 Bronze Block Slab = Bronzeblockplatte
 Gold Block Stair = Goldblocktreppe
 Gold Block Slab = Goldblockplatte
-Aspen Wood Stair = Espenholztreppe
-Aspen Wood Slab = Espenholzplatte
