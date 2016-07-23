@@ -1,5 +1,5 @@
 # Template for translations of default mod
-# last update: 2016/March/15
+# last update: 2016/July/23
 
 #craftitems.lua
 Stick = 
@@ -38,14 +38,18 @@ active =
 Stone = 
 Cobblestone = 
 Stone Brick = 
+Stone Block = 
 Mossy Cobblestone = 
 Desert Stone = 
 Desert Cobblestone = 
 Desert Stone Brick = 
+Desert Stone Block = 
 Sandstone = 
 Sandstone Brick = 
+Sandstone Block = 
 Obsidian = 
 Obsidian Brick = 
+Obsidian Block = 
 Dirt = 
 Dirt with Grass = 
 Dirt with Grass and Footsteps = 
@@ -133,8 +137,6 @@ Rail =
 Brick Block = 
 Mese Lamp = 
 Cloud = 
-Nyan Cat = 
-Nyan Cat Rainbow = 
 
 #tools.lua
 Wooden Pickaxe = 

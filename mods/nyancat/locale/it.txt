@@ -1,0 +1,7 @@
+# Italian Translation for nyancat Mod
+# Traduzione italiana del modulo nyancat
+# Last update/Ultimo aggiornamento: 2016/07/23
+# Author/Autore: Emon
+
+Nyan Cat = Gatto Nyan
+Nyan Cat Rainbow = Arcobaleno del gatto Nyan

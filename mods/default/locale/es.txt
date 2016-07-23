@@ -109,8 +109,6 @@ Rail = Riel
 Brick Block = Bloque de ladrillo
 Mese Lamp = Lámpara de mese
 Cloud = Nube
-Nyan Cat = Nyan Cat
-Nyan Cat Rainbow = Nyan Cat Rainbow 
 
 #tools.lua
 Wooden Pickaxe = Pico de madera

@@ -209,7 +209,6 @@ local function furnace_node_timer(pos, elapsed)
 	end
 
 		local infotext = S("Furnance @1 Item: @2; Fuel: @3", tostring(active), tostring(item_state), tostring(fuel_state))
---		local infotext =  S("Furnace ") .. active .. S("(Item: ") .. item_state .. S("; Fuel: ") .. fuel_state .. ")"
 
 	--
 	-- Set meta values

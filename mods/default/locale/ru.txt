@@ -109,8 +109,6 @@ Rail = Рельсы
 Brick Block = Кирпичный блок
 Mese Lamp = Мез лампа
 Cloud = Облаок
-Nyan Cat = Нян кэт
-Nyan Cat Rainbow = Радуга нян кэта 
 
 #tools.lua
 Wooden Pickaxe = Деревянная кирка
