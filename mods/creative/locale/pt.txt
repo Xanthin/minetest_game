@@ -1,0 +1,10 @@
+# Portuguese translation for creative Mod
+# Tradução em Português para o Mod creative
+# Last update/Última atualização: 2016/07/28
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+@1 takes @2 from creative inventory = @1 pega @2 do inventário criativo
+Search = Procurar
+Reset = Limpar
+Crafting,All,Nodes,Tools,Items = Craft,Tudo,Blocos,Ferramentas,Itens

@@ -1,0 +1,9 @@
+# Portuguese translation for xpanes Mod
+# Tradução em Português para o Mod xpanes
+# Last update/Última atualização: 2016/07/30
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+Glass Pane = Vidraça
+Iron bar = Barra de Aço
+
