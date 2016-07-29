@@ -1,0 +1,10 @@
+# Portuguese translation for bucket Mod
+# Tradução em Português para o Mod bucket
+# Last update/Última atualização: 2016/07/28
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+Empty Bucket = Balde Vazio
+Water Bucket = Balde d'Água
+River Water Bucket = Balde d'Água de Rio
+Lava Bucket = Balde de Lava

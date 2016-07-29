@@ -1,0 +1,15 @@
+# Portuguese translation for sethome Mod
+# Tradução em Português para o Mod sethome
+# Last update/Última atualização: 2016/07/30
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+Could not load player homes file: @1 = Não foi possível carregar arquivo de lares de jogador: @1
+Unable to write to player homes file: @1 = Não foi possível escrever em arquivo de lares de jogador: @1
+Can use /sethome and /home = Pode usar /sethome e /home
+Teleport you to your home point = Te teleporta para seu lar
+Teleported to home! = Teleportado para seu lar!
+Set a home using /sethome = Defina um lar usando /sethome
+Set your home point = Defina seu lar
+Home set! = Lar definido
+Player not found! = Jogador não encontrado!

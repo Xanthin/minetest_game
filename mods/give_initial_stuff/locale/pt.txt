@@ -1,0 +1,6 @@
+# Portuguese translation for give_initial_stuff Mod
+# Tradução em Português para o Mod give_initial_stuff
+# Last update/Última atualização: 2016/07/30
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+Giving initial stuff to player @1 = Dando itens iniciais para jogador @1

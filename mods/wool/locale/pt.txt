@@ -1,0 +1,22 @@
+# Portuguese translation for wool Mod
+# Tradução em Português para o Mod wool
+# Last update/Última atualização: 2016/07/30
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+White = Branca
+Grey = Cinza
+Black = Preta
+Red = Vermelha
+Yellow = Amarela
+Green = Verde
+Cyan = Ciano
+Blue = Azul
+Magenta = Magenta
+Orange = Laranja
+Violet = Violeta
+Brown = Marrom
+Pink = Cor-de-Rosa
+Dark Grey = Cinza Escura
+Dark Green = Verde Escura
+@1 Wool = Lã @1
