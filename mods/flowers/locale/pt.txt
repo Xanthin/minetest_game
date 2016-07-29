@@ -1,0 +1,15 @@
+# Portuguese translation for flowers Mod
+# Tradução em Português para o Mod flowers
+# Last update/Última atualização: 2016/07/28
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+White dandelion = Dente-de-Leão Branco
+Yellow Dandelion = Dente-de-Leão Amarelo
+Blue Geranium = Gerânio Azul
+Rose = Rosa
+Orange Tulip = Tulipa Laranja
+Viola = Violeta
+Red Mushroom = Cogumelo Vermelho
+Brown Mushroom = Cogumelo Marrom
+Waterlily = Lírio d'Água

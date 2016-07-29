@@ -1,0 +1,8 @@
+# Portuguese translation for fire Mod
+# Tradução em Português para o Mod fire
+# Last update/Última atualização: 2016/07/28
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+Permanent Flame = Fogo Perene
+Flint and Steel = Pederneira

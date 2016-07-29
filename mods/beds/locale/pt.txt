@@ -1,0 +1,17 @@
+# Portuguese translation for beds Mod
+# Tradução em Português para o Mod beds
+# Last update/Última atualização: 2016/07/28
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#beds.lua
+Fancy Bed = Cama Chique
+Simple Bed = Cama Simples
+
+#functions.lua
+@1 of @2 players are in bed] = @1 de @2 jogadores estão na cama]
+Good morning. = Bom dia.
+Force night skip = Forçar a passagem da noite
+You can only sleep at night. = Você só pode dormir à noite
+
+#init.lua
+Leave Bed = Levantar-se

@@ -1,0 +1,7 @@
+# Portuguese translation for boats Mod
+# Tradução em Português para o Mod boats
+# Last update/Última atualização: 2016/07/28
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+Boat = Barco

@@ -1,0 +1,21 @@
+# Portuguese translation for dye Mod
+# Tradução em Português para o Mod dye
+# Last update/Última atualização: 2016/07/28
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+White dye = Tinta Branca
+Grey dye = Tinta Cinza
+Dark grey dye = Tinta Cinza Escura
+Black dye = Tinta Preta
+Violet dye = Tinta Violeta
+Blue dye = Tinta Azul
+Cyan dye = Tinta Ciano
+Dark green dye = Tinta Verde Escura
+Green dye = Tinta Verde
+Yellow dye = Tinta Amarela
+Brown dye = Tinta Marrom
+Orange dye = Tinta Laranja
+Red dye = Tinta Vermelha
+Magenta dye = Tinta Magenta
+Pink dye = Tinta Cor-de-Rosa

@@ -1,0 +1,31 @@
+# Portuguese translation for farming Mod
+# Tradução em Português para o Mod farming
+# Last update/Última atualização: 2016/07/28
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+Wheat = Trigo
+Wheat seed = Semente de Trigo
+Flour = Farinha
+Bread = Pão
+Cotton = Algodão
+Cotton seed = Semente de Algodão
+
+#hoes.lua
+Wooden Hoe = Enxada de Madeira
+Stone Hoe = Enxada de Pedra
+Steel Hoe = Enxada de Aço
+Bronze Hoe = Enxada de Bronze
+Mese Hoe = Enxada de Mese
+Diamond Hoe = Enxada de Diamante
+
+#nodes.lua
+Soil = Solo Arado
+Wet Soil = Solo Úmido
+Desert Sand Soil = Solo de Areia de Deserto Arado
+Wet Desert Sand Soil = Solo de Deserto Arado Úmido
+Straw = Palha
+
+#api.lua
+Hoe = Enxada
+Seed = Semente
