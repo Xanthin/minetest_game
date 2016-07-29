@@ -1,0 +1,7 @@
+# Portuguese translation for screwdriver Mod
+# Tradução em Português para o Mod screwdriver
+# Last update/Última atualização: 2016/07/30
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+Screwdriver (left-click rotates face, right-click rotates axis) = Chave de Fenda (clique-esquerdo gira face, clique-direito gira eixo)

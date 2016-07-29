@@ -1,0 +1,10 @@
+# Portuguese translation for bones Mod
+# Tradução em Português para o Mod bones
+# Last update/Última atualização: 2016/07/28
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+Bones = Ossos
+@1's old bones = Ossos antigos de @1
+@1's fresh bones = Ossos frescos de @1
+@1's bones = Ossos de @1

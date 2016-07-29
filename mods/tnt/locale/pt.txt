@@ -1,0 +1,9 @@
+# Portuguese translation for tnt Mod
+# Tradução em Português para o Mod tnt
+# Last update/Última atualização: 2016/07/30
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+TNT = Dinamite
+Gun Powder = Pólvora
+[TNT] Loaded! = [TNT] Carregado!
