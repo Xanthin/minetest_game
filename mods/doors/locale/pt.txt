@@ -1,0 +1,19 @@
+# Portuguese translation for doors Mod
+# Tradução em Português para o Mod doors
+# Last update/Última atualização: 2016/07/28
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+Hidden Door Segment = Segmento Oculto de Porta
+Wooden Door = Porta de Madeira
+Steel Door = Porta de Aço
+Glass Door = Porta de Vidro
+Obsidian Glass Door = Porta de Vidro de Obsidiana
+Trapdoor = Alçapão
+Steel Trapdoor = Alçapão de Aço
+Owned by @1 = Pertence a @1
+Wooden Fence Gate = Porteira de Madeira
+Acacia Fence Gate = Porteira de Acacia
+Junglewood Fence Gate = Porteira de Madeira Selvagem
+Pine Fence Gate = Porteira de Pinheiro
+Aspen Fence Gate = Porteira de Alamo

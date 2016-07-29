@@ -1,0 +1,7 @@
+# Portuguese translation for nyancat Mod
+# Tradução em Português para o Mod nyancat
+# Last update/Última atualização: 2016/07/30
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+Nyan Cat = Nyan Cat
+Nyan Cat Rainbow = Arco-Íris de Nyan Cat
