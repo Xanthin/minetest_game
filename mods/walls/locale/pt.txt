@@ -1,0 +1,9 @@
+# Portuguese translation for walls Mod
+# Tradução em Português para o Mod walls
+# Last update/Última atualização: 2016/07/30
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+Cobblestone Wall = Muro de Pedregulho
+Mossy Cobblestone Wall = Muro de Pedregulho Musgoso
+Desert Cobblestone Wall = Muro de Pedregulho de Deserto

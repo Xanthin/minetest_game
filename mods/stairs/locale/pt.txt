@@ -1,0 +1,58 @@
+# Portuguese translation for stairs Mod
+# Tradução em Português para o Mod stairs
+# Last update/Última atualização: 2016/07/30
+# Author/Autor: Paulo Sérgio (psergiojr)
+
+#init.lua
+Wooden Stair = Escadaria de Madeira
+Wooden Slab = Degrau de Madeira
+Junglewood Stair = Escadaria de Madeira Selvagem
+Junglewood Slab = Degrau de Madeira Selvagem
+Pine Wood Stair = Escadaria de Pinheiro
+Pine Wood Slab = Degrau de Pinheiro
+Acacia Wood Stair = Escadaria de Acácia
+Acacia Wood Slab = Degrau de Acácia
+Aspen Wood Stair = Escadaria de Álamo
+Aspen Wood Slab = Degrau de Álamo
+Stone Stair = Escadaria de Pedra
+Stone Slab = Degrau de Pedra
+Cobblestone Stair = Escadaria de Pedregulho
+Cobblestone Slab = Degrau de Pedregulho
+Mossy Cobblestone Stair = Escadaria de Pedregulho Musgoso
+Mossy Cobblestone Slab = Degrau de Pedregulho Musgoso
+Stone Block Stair = Escadaria de Bloco de Pedra
+Stone Block Slab = Degrau de Bloco de Pedra
+Stone Brick Stair = Escadaria de Tijolo de Pedra
+Stone Brick Slab = Degrau de Tijolo de Pedra
+Desert Stone Stair = Escadaria de Pedra de Deserto
+Desert Stone Slab = Degrau de Pedra de Deserto
+Desert Cobblestone Stair = Escadaria de Pedregulho de Deserto
+Desert Cobblestone Slab = Degrau de Pedregulho de Deserto
+Desert Stone Brick Stair = Escadaria de Tijolo de Pedra de Deserto
+Desert Stone Brick Slab = Degrau de Tijolo de Pedra de Deserto
+Desert Stone Block Stair = Escadaria de Bloco de Pedra de Deserto
+Desert Stone Block Slab = Degrau de Bloco de Pedra de Deserto
+Sandstone Stair = Escadaria de Arenito
+Sandstone Slab = Degrau de Arenito
+Sandstone Brick Stair = Escadaria de Tijolo de Arenito
+Sandstone Brick Slab = Degrau de Tijolo de Arenito
+Sandstone Block Stair = Escadaria de Bloco de Arenito
+Sandstone Block Slab = Degrau de Bloco de Arenito
+Obsidian Stair = Escadaria de Obsidiana
+Obsidian Slab = Degrau de Obsidiana
+Obsidian Brick Stair = Escadaria de Tijolo de Obsidiana
+Obsidian Brick Slab = Degrau de Tijolo de Obsidiana
+Obsidian Block Stair = Escadaria de Bloco de Obsidiana
+Obsidian Block Slab = Degrau de Bloco de Obsidiana
+Brick Stair = Escadaria de Tijolo
+Brick Slab = Degrau de Tijolo
+Straw Stair = Escadaria de palha
+Straw Slab = Degrau de Palha
+Steel Block Stair = Escadaria de Bloco de Aço
+Steel Block Slab = Degrau de Bloco de Aço
+Copper Block Stair = Escadaria de Bloco de Cobre
+Copper Block Slab = Degrau de Bloco de Cobre
+Bronze Block Stair = Escadaria de Bloco de Bronze
+Bronze Block Slab = Degrau de Bloco de Bronze
+Gold Block Stair = Escadaria de Bloco de Ouro
+Gold Block Slab = Degrau de Bloco de Ouro
