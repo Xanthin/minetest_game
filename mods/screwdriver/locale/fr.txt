@@ -1,0 +1,2 @@
+#init.lua
+Screwdriver (left-click rotates face, right-click rotates axis) = Tournevis (clic-gauche pivote côtés, clic-droit pivote axes)

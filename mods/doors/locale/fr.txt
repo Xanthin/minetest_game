@@ -1,0 +1,17 @@
+# Template for translations of doors mod
+# last update: 2016/March/21
+
+#init.lua
+Hidden Door Segment = Segment de porte caché
+Wooden Door = Porte en bois
+Steel Door = Porte en acier
+Glass Door = Porte en verre
+Obsidian Glass Door = Porte en verre d'obsidienne
+Trapdoor = Trappe en bois
+Steel Trapdoor = Trappe en acier
+Owned by @1 = Possédé par @1
+Wooden Fence Gate = Porte de barrières en bois
+Acacia Fence Gate = Porte de barrières en Acacia
+Junglewood Fence Gate = Porte de barrières en bois de jungle
+Pine Fence Gate = Porte de barrières en Pin
+Aspen Fence Gate = Porte de barrières en Tremble
