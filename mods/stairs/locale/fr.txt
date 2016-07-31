@@ -1,0 +1,56 @@
+# Template for translations of stairs Mod
+# last update: 2016/July/23
+
+#init.lua
+Wooden Stair = Escalier en bois
+Wooden Slab = Dalle en bois
+Junglewood Stair = Escalier en bois de jungle
+Junglewood Slab = Dalle en bois de jungle
+Pine Wood Stair = Escalier en bois de Pin
+Pine Wood Slab = Dalle en bois de Pin
+Acacia Wood Stair = Escalier en bois d'Acacia
+Acacia Wood Slab = Dalle en bois d'Acacia
+Aspen Wood Stair = Escalier en bois de Tremble
+Aspen Wood Slab = Dalle en bois de Tremble
+Stone Stair = Escalier en roche
+Stone Slab = Dalle en roche
+Cobblestone Stair = Escalier en pavés
+Cobblestone Slab = Dalle en pavés
+Mossy Cobblestone Stair = Escalier en pavés moussus
+Mossy Cobblestone Slab = Dalle en pavés moussus
+Stone Block Stair = Escalier en bloc de roche
+Stone Block Slab = Dalle en bloc de roche
+Stone Brick Stair = Escalier en briques de roche
+Stone Brick Slab = Dalle en briques de roche
+Desert Stone Stair = Escalier en roche du desert
+Desert Stone Slab = Dalle en roche du desert
+Desert Cobblestone Stair = Escalier en pavés du desert
+Desert Cobblestone Slab = Dalle en pavés du desert
+Desert Stone Brick Stair = Escalier en briques de roche du desert
+Desert Stone Brick Slab = Dalle en briques de roche du desert
+Desert Stone Block Stair = Escalier en bloc de roche du desert
+Desert Stone Block Slab = Dalle en bloc de roche du desert
+Sandstone Stair = Escalier en gré
+Sandstone Slab = Dalle en gré
+Sandstone Brick Stair = Escalier en briques de gré
+Sandstone Brick Slab = Dalle en briques de gré
+Sandstone Block Stair = Escalier en bloc de gré
+Sandstone Block Slab = Dalle en bloc de gré
+Obsidian Stair = Escalier en obsidienne
+Obsidian Slab = Dalle en obsidienne
+Obsidian Brick Stair = Escalier en briques d'obsidienne
+Obsidian Brick Slab = Dalle en briques d'obsidienne
+Obsidian Block Stair = Escalier en bloc d'obsidienne
+Obsidian Block Slab = Dalle en bloc d'obsidienne
+Brick Stair = Escalier en briques
+Brick Slab = Dalles en briques
+Straw Stair = Escalier en paille
+Straw Slab = Dalle en paille
+Steel Block Stair = Escalier en bloc d'acier
+Steel Block Slab = Dalle en bloc d'acier
+Copper Block Stair = Escalier en bloc de cuivre
+Copper Block Slab = Dalle en bloc de cuivre
+Bronze Block Stair = Escalier en bloc de bronze
+Bronze Block Slab = Dalle en bloc de bronze
+Gold Block Stair = Escalier en bloc d'or
+Gold Block Slab = Dalle en bloc d'or

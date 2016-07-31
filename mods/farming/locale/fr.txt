@@ -1,0 +1,26 @@
+#init.lua
+Wheat = Blé
+Wheat seed = Graines de blé
+Flour = Farine
+Bread = Pain
+Cotton = Coton
+Cotton seed = Graines de coton
+
+#hoes.lua
+Wooden Hoe = Houe en bois
+Stone Hoe = Houe en pierre
+Steel Hoe = Houe en acier
+Bronze Hoe = Houe en bronze
+Mese Hoe = Houe en mese
+Diamond Hoe = Houe en diamant
+
+#nodes.lua
+Soil = Sol
+Wet Soil = Sol humide
+Desert Sand Soil = Sol en sable du desert
+Wet Desert Sand Soil = Sol en sable du desert humide
+Straw = Paille
+
+#api.lua
+Hoe = Houe
+Seed = Graine
