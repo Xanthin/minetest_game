@@ -1,0 +1,4 @@
+#init.lua
+TNT = TNT
+Gun Powder = Poudre à canon
+[TNT] Loaded! = [TNT] Chargé !

@@ -1,0 +1,5 @@
+#init.lua
+@1 takes @2 from creative inventory = @1 prend @2 de l'inventaire de création
+Search = Rechercher
+Reset = Remise à zero
+Crafting,All,Nodes,Tools,Items = Fabrication,Tout,Blocs,Outils,Objets

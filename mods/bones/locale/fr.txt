@@ -1,0 +1,5 @@
+#init.lua
+Bones = Ossements
+@1's old bones = Anciens ossements de @1
+@1's fresh bones = Ossements récents de @1
+@1's bones = Ossements de @1
