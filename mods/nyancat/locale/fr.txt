@@ -1,0 +1,5 @@
+# Template for translations of nyancat mod
+# last update: 2016/July/23
+
+Nyan Cat = Nyan Cat
+Nyan Cat Rainbow = Arc-en-ciel Nyan Cat

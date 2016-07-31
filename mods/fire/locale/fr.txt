@@ -1,0 +1,6 @@
+# Template for translations of fire mod
+# last update: 2016/March/15
+
+#init.lua
+Permanent Flame = Flamme permanente
+Flint and Steel = Silex et acier

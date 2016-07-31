@@ -1,0 +1,16 @@
+#init.lua
+White dye = Teinture blanche
+Grey dye = Teinture grise
+Dark grey dye = Teinture gris foncé
+Black dye = Teinture noire
+Violet dye = Teinture violette
+Blue dye = Teinture bleue
+Cyan dye = Teinture cyan
+Dark green dye = Teinture vert foncé
+Green dye = Teinture verte
+Yellow dye = Teinture jaune
+Brown dye = Teinture marron
+Orange dye = Teinture orange
+Red dye = Teinture rouge
+Magenta dye = Teinture magenta
+Pink dye = Teinture rose
