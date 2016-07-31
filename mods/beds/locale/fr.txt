@@ -1,0 +1,12 @@
+#beds.lua
+Fancy Bed = Lit chic
+Simple Bed = Lit simple
+
+#functions.lua
+@1 of @2 players are in bed] = @1 de @2 joueurs sont au lit]
+Good morning. = Bonjour.
+Force night skip = Forcer le passage de la nuit
+You can only sleep at night. = Tu peux domir seulement la nuit.
+
+#init.lua
+Leave Bed = Sortir du lit

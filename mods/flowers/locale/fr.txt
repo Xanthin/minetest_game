@@ -1,0 +1,10 @@
+#init.lua
+White dandelion = Marguerites
+Yellow Dandelion = Pissenlit
+Blue Geranium = Géranium bleue
+Rose = Rose
+Orange Tulip = Tulipe orange
+Viola = Violettes
+Red Mushroom = Champignon rouge
+Brown Mushroom = Champignon marron
+Waterlily = Nénuphar

@@ -1,0 +1,10 @@
+#init.lua
+Vessels shelf = Vesselier
+@1 moves stuff in vessels shelf at @2 = @1 déplace des choses dans vesselier à @2
+@1 moves stuff to vessels shelf at @2 =  @1 déplace des choses vers vesselier à @2
+@1 takes stuff from vessels shelf at @2 =  @1 prend des choses du vesselier à @2
+Glass Bottle (empty) = Bouteille en verre (vide)
+Drinking Glass (empty) = Verre à boire (vide)
+Heavy Steel Bottle (empty) = Grosse bouteille en acier (vide)
+Pile of Glass Fragments = Pile de fragments de verre
+  
