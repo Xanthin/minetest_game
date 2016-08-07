@@ -4,8 +4,8 @@
 #init.lua
 Wooden Stair = 
 Wooden Slab = 
-Junglewood Stair = 
-Junglewood Slab = 
+Jungle Wood Stair = 
+Jungle Wood Slab = 
 Pine Wood Stair = 
 Pine Wood Slab = 
 Acacia Wood Stair = 

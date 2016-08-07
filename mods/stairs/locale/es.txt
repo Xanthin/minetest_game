@@ -1,8 +1,8 @@
 #init.lua
 Wooden Stair = Escalera de madera
 Wooden Slab = Losa de madera
-Junglewood Stair = Escalera de madera de jungla
-Junglewood Slab = Losa de madera de jungla
+Jungle Wood Stair = Escalera de madera de jungla
+Jungle Wood Slab = Losa de madera de jungla
 Pine Wood Stair = Escalera de madera de pino
 Pine Wood Slab = Losa de madera de pino
 Acacia Wood Stair = 

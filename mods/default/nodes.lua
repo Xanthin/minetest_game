@@ -311,7 +311,7 @@ minetest.register_node("default:obsidianbrick", {
 })
 
 minetest.register_node("default:obsidian_block", {
-	description = "Obsidian Block",
+	description = S("Obsidian Block"),
 	tiles = {"default_obsidian_block.png"},
 	is_ground_content = false,
 	sounds = default.node_sound_stone_defaults(),
