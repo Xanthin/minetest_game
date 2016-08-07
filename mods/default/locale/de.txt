@@ -38,12 +38,12 @@ active = aktiv
 
 #nodes
 Stone = Stein
-Cobblestone = Bruchstein
+Cobblestone = Kopfsteinpflaster
 Stone Brick = Steinziegel
 Stone Block = Steinblock
-Mossy Cobblestone = Bemooster Bruchstein
+Mossy Cobblestone = Bemoostes Kopfsteinpflaster
 Desert Stone = Wüstenstein
-Desert Cobblestone = Wüstenbruchstein
+Desert Cobblestone = Wüstenkopfsteinpflaster
 Desert Stone Brick = Wüstensteinziegel
 Desert Stone Block = Wüstensteinblock
 Sandstone = Sandstein

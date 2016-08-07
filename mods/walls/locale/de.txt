@@ -4,6 +4,6 @@
 # Author: Xanthin
 
 #init.lua
-Cobblestone Wall = Bruchsteinmauer
-Mossy Cobblestone Wall = Bemosste Bruchsteinmauer
-Desert Cobblestone Wall = Wüstenbruchsteinmauer
+Cobblestone Wall = Kopfsteinpflastermauer
+Mossy Cobblestone Wall = Bemosste Kopfsteinpflastermauer
+Desert Cobblestone Wall = Wüstenkopfsteinpflastermauer
