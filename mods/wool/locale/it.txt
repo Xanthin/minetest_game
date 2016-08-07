@@ -20,4 +20,4 @@ Brown = marrone
 Pink = rosa
 Dark Grey = grigia scura
 Dark Green = verde scura
- Wool =  Lana
+@1 Wool = Lana @1

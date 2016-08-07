@@ -7,8 +7,8 @@
 #init.lua
 Wooden Stair = Scala in legno
 Wooden Slab = Lastra in legno
-Junglewood Stair = Scala in legno della giungla
-Junglewood Slab = Lastra in legno della giungla
+Jungle Wood Stair = Scala in legno della giungla
+Jungle Wood Slab = Lastra in legno della giungla
 Pine Wood Stair = Scala in legno di pino
 Pine Wood Slab = Lastra in legno di pino
 Acacia Wood Stair = Scala in legno di acacia

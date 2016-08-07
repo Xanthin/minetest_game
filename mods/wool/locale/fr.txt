@@ -14,4 +14,4 @@ Brown = Marron
 Pink = Rose
 Dark Grey = Gris foncé
 Dark Green = Vert foncé
- Wool =  Laine
+@1 Wool = Laine @1
