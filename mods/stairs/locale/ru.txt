@@ -1,8 +1,8 @@
 #init.lua
 Wooden Stair = Лестница из дерева
 Wooden Slab = Полублок из дерева
-Junglewood Stair = Лестница из джунглевого дерева
-Junglewood Slab = Полублок из джунглевого дерева
+Jungle Wood Stair = Лестница из джунглевого дерева
+Jungle Wood Slab = Полублок из джунглевого дерева
 Pine Wood Stair = Лестница из сосны
 Pine Wood Slab = Полублок из сосны
 Acacia Wood Stair = 

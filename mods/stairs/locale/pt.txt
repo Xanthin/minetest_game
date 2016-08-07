@@ -6,8 +6,8 @@
 #init.lua
 Wooden Stair = Escadaria de Madeira
 Wooden Slab = Degrau de Madeira
-Junglewood Stair = Escadaria de Madeira Selvagem
-Junglewood Slab = Degrau de Madeira Selvagem
+Jungle Wood Stair = Escadaria de Madeira Selvagem
+Jungle Wood Slab = Degrau de Madeira Selvagem
 Pine Wood Stair = Escadaria de Pinheiro
 Pine Wood Slab = Degrau de Pinheiro
 Acacia Wood Stair = Escadaria de Acácia

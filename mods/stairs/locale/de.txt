@@ -6,8 +6,8 @@
 #init.lua
 Wooden Stair = Holztreppe
 Wooden Slab = Holzplatte
-Junglewood Stair = Tropenholztreppe
-Junglewood Slab = Tropenholzplatte
+Jungle Wood Stair = Tropenholztreppe
+Jungle Wood Slab = Tropenholzplatte
 Pine Wood Stair = Kiefernholztreppe
 Pine Wood Slab = Kiefernholzplatte
 Acacia Wood Stair = Akazienholztreppe
