@@ -4,4 +4,4 @@
 # Author: Xanthin
 
 #init.lua
-Screwdriver (left-click rotates face, right-click rotates axis) = Schraubendreher (Linksklick dreht Front, \nRechtsklick dreht Achse)
+Screwdriver (left-click rotates face, right-click rotates axis) = Schraubendreher (Linksklick dreht Front, Rechtsklick dreht Achse)

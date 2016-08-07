@@ -6,4 +6,4 @@
 @1 takes @2 from creative inventory = @1 nimmt @2 aus dem Kreativinventar
 Search = Suchen
 Reset = Zurücksetzen
-Crafting,All,Nodes,Tools,Items = Fertigung,Alle,Blöcke,Werkzeuge,Gegenstände
+Crafting,All,Nodes,Tools,Items = Fertigung,Alles,Blöcke,Werkzeuge,Gegenstände
