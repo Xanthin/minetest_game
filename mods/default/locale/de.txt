@@ -59,6 +59,7 @@ Dirt with Dry Grass = Erde mit vertrocknetem Gras
 Dirt with Snow = Erde mit Schnee
 Sand = Sand
 Desert Sand = Wüstensand
+Silver Sand = Silbersand
 Gravel = Kies
 Clay = Ton
 Snow = Schnee

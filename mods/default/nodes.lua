@@ -402,7 +402,7 @@ minetest.register_node("default:desert_sand", {
 })
 
 minetest.register_node("default:silver_sand", {
-	description = "Silver Sand",
+	description = S("Silver Sand"),
 	tiles = {"default_silver_sand.png"},
 	groups = {crumbly = 3, falling_node = 1, sand = 1},
 	sounds = default.node_sound_sand_defaults(),

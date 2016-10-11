@@ -57,6 +57,7 @@ Dirt with Dry Grass =
 Dirt with Snow = 
 Sand = 
 Desert Sand = 
+Silver Sand = 
 Gravel = 
 Clay = 
 Snow = 
