@@ -1274,7 +1274,7 @@ minetest.register_node("default:acacia_bush_leaves", {
 --
 
 minetest.register_node("default:coral_brown", {
-	description = "Brown Coral",
+	description = S("Brown Coral"),
 	tiles = {"default_coral_brown.png"},
 	groups = {cracky = 3},
 	drop = "default:coral_skeleton",
@@ -1282,7 +1282,7 @@ minetest.register_node("default:coral_brown", {
 })
 
 minetest.register_node("default:coral_orange", {
-	description = "Orange Coral",
+	description = S("Orange Coral"),
 	tiles = {"default_coral_orange.png"},
 	groups = {cracky = 3},
 	drop = "default:coral_skeleton",
@@ -1290,7 +1290,7 @@ minetest.register_node("default:coral_orange", {
 })
 
 minetest.register_node("default:coral_skeleton", {
-	description = "Coral Skeleton",
+	description = S("Coral Skeleton"),
 	tiles = {"default_coral_skeleton.png"},
 	groups = {cracky = 3},
 	sounds = default.node_sound_stone_defaults(),

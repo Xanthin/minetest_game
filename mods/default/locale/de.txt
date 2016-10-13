@@ -1,6 +1,6 @@
 ﻿# German Translation for default Mod
 # Deutsche Übersetzung der default Mod
-# last update: 2016/July/23
+# last update: 2016/October/13
 # Author: Xanthin
 
 #craftitems.lua
@@ -105,6 +105,9 @@ Dry Shrub = Vertrockneter Strauch
 Jungle Grass = Tropengras
 Grass = Gras
 Dry Grass = Vertrocknetes Gras
+Brown Coral = Braune Koralle
+Orange Coral = Orange Koralle
+Coral Skeleton = Korallenskelett
 Water Source = Wasserquelle
 Flowing Water = Fließendes Wasser
 River Water Source = Flusswasserquelle

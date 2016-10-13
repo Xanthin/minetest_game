@@ -1,5 +1,5 @@
 # Template for translations of default mod
-# last update: 2016/July/23
+# last update: 2016/October/13
 
 #craftitems.lua
 Stick = 
@@ -103,6 +103,9 @@ Dry Shrub =
 Jungle Grass = 
 Grass = 
 Dry Grass = 
+Brown Coral = 
+Orange Coral = 
+Coral Skeleton = 
 Water Source = 
 Flowing Water = 
 River Water Source = 
