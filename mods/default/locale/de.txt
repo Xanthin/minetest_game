@@ -1,6 +1,6 @@
 ﻿# German Translation for default Mod
 # Deutsche Übersetzung der default Mod
-# last update: 2016/October/13
+# last update: 2016/November/08
 # Author: Xanthin
 
 #craftitems.lua
@@ -105,6 +105,10 @@ Dry Shrub = Vertrockneter Strauch
 Jungle Grass = Tropengras
 Grass = Gras
 Dry Grass = Vertrocknetes Gras
+Bush Stem = Buschstamm
+Bush Leaves = Buschlaub
+Acacia Bush Stem = Akazienbuschstamm
+Acacia Bush Leaves = Akazienbuschlaub
 Brown Coral = Braune Koralle
 Orange Coral = Orange Koralle
 Coral Skeleton = Korallenskelett

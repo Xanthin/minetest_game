@@ -1215,7 +1215,7 @@ end
 
 
 minetest.register_node("default:bush_stem", {
-	description = "Bush Stem",
+	description = S("Bush Stem"),
 	drawtype = "plantlike",
 	visual_scale = 1.18,
 	tiles = {"default_bush_stem.png"},
@@ -1232,7 +1232,7 @@ minetest.register_node("default:bush_stem", {
 })
 
 minetest.register_node("default:bush_leaves", {
-	description = "Bush Leaves",
+	description = S("Bush Leaves"),
 	drawtype = "allfaces_optional",
 	waving = 1,
 	tiles = {"default_leaves_simple.png"},
@@ -1242,7 +1242,7 @@ minetest.register_node("default:bush_leaves", {
 })
 
 minetest.register_node("default:acacia_bush_stem", {
-	description = "Acacia Bush Stem",
+	description = S("Acacia Bush Stem"),
 	drawtype = "plantlike",
 	visual_scale = 1.18,
 	tiles = {"default_acacia_bush_stem.png"},
@@ -1259,7 +1259,7 @@ minetest.register_node("default:acacia_bush_stem", {
 })
 
 minetest.register_node("default:acacia_bush_leaves", {
-	description = "Acacia Bush Leaves",
+	description = S("Acacia Bush Leaves"),
 	drawtype = "allfaces_optional",
 	waving = 1,
 	tiles = {"default_acacia_leaves_simple.png"},
