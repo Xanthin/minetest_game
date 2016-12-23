@@ -1,5 +1,11 @@
-#init.lua
+# Template for translations of creative mod
+# last update: 2016/December/23
+
+#inventory.lua
 @1 takes @2 from creative inventory = 
 Search = 
 Reset = 
-Crafting,All,Nodes,Tools,Items = 
+All = 
+Nodes = 
+Tools = 
+Items = 

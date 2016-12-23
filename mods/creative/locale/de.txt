@@ -1,9 +1,12 @@
 # German Translation for creative Mod
 # Deutsche Übersetzung der creative Mod
-# last update: 2016/January/26
+# last update: 2016/December/23
 # Author: Xanthin
 
 @1 takes @2 from creative inventory = @1 nimmt @2 aus dem Kreativinventar
 Search = Suchen
 Reset = Zurücksetzen
-Crafting,All,Nodes,Tools,Items = Fertigung,Alles,Blöcke,Werkzeuge,Gegenstände
+All = Alles
+Nodes = Blöcke
+Tools = Werkzeuge
+Items = Gegenstände

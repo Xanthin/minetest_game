@@ -1,0 +1,7 @@
+# German Translation for sfinv Mod
+# Deutsche Übersetzung der sfinv Mod
+# last update: 2016/December/23
+# Author: Xanthin
+
+#init.lua
+Crafting = Fertigung

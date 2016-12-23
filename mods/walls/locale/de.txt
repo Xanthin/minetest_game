@@ -1,9 +1,9 @@
 # German Translation for walls Mod
 # Deutsche Übersetzung der walls Mod
-# last update: 2016/March/15
+# last update: 2016/December/23
 # Author: Xanthin
 
 #init.lua
 Cobblestone Wall = Kopfsteinpflastermauer
-Mossy Cobblestone Wall = Bemosste Kopfsteinpflastermauer
+Mossy Cobblestone Wall = Bemooste Kopfsteinpflastermauer
 Desert Cobblestone Wall = Wüstenkopfsteinpflastermauer

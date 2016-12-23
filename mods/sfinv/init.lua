@@ -1,7 +1,15 @@
 dofile(minetest.get_modpath("sfinv") .. "/api.lua")
 
+-- Intllib
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+
 sfinv.register_page("sfinv:crafting", {
-	title = "Crafting",
+	title = S("Crafting"),
 	get = function(self, player, context)
 		return sfinv.make_formspec(player, context, [[
 				list[current_player;craft;1.75,0.5;3,3;]

@@ -56,7 +56,7 @@ local function get_vessels_shelf_formspec(inv)
 end
 
 minetest.register_node("vessels:shelf", {
-	description = S("Vessels shelf"),
+	description = S("Vessels Shelf"),
 	tiles = {"default_wood.png", "default_wood.png", "default_wood.png",
 		"default_wood.png", "vessels_shelf.png", "vessels_shelf.png"},
 	paramtype2 = "facedir",

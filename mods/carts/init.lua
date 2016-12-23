@@ -3,6 +3,15 @@ carts = {}
 carts.modpath = minetest.get_modpath("carts")
 carts.railparams = {}
 
+-- Intllib
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+carts.intllib = S
+
 -- Maximal speed of the cart in m/s (min = -1)
 carts.speed_max = 7
 -- Set to -1 to disable punching the cart from inside (min = -1)

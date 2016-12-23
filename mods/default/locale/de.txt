@@ -1,6 +1,6 @@
 ﻿# German Translation for default Mod
 # Deutsche Übersetzung der default Mod
-# last update: 2016/November/08
+# last update: 2016/December/23
 # Author: Xanthin
 
 #craftitems.lua
@@ -36,7 +36,7 @@ Not cookable = Nicht kochbar
 inactive = inaktiv
 active = aktiv
 
-#nodes
+#nodes.lua
 Stone = Stein
 Cobblestone = Kopfsteinpflaster
 Stone Brick = Steinziegel
@@ -118,7 +118,6 @@ River Water Source = Flusswasserquelle
 Flowing River Water = Fließendes Flusswasser
 Lava Source = Lavaquelle
 Flowing Lava = Fließende Lava
-Torch = Fackel
 Chest = Truhe
 @1 moves stuff in chest at @2 = @1 bewegt Dinge in einer Truhe bei @2
 @1 moves @2 to chest at @3 = @1 verlagert @2 in eine Truhe bei @3
@@ -127,6 +126,7 @@ Locked Chest = Verschlossene Truhe
 Locked Chest (owned by @1) = Verschlossene Truhe (gehört @1)
 @1 moves @2 to locked chest at @3 =  @1 verlagert @2 in eine verschlossene Truhe bei @3
 @1 takes @2 from locked chest at @3 =  @1 nimmt @2 aus einer verschlossenen Truhe bei @3
+You do not own this chest. = Diese Truhe gehört dir nicht.
 Bookshelf = Bücherregal
 @1 moves stuff in bookshelf at @2 = @1 bewegt Dinge im Bücherregal bei @2
 @1 moves stuff to bookshelf at @2 = @1 verlagert Dinge ins Bücherregal bei @2
@@ -143,7 +143,6 @@ Pine Fence = Kiefernzaun
 Aspen Fence = Espenzaun
 Glass = Glas
 Obsidian Glass = Obsidianglas
-Rail = Schiene
 Brick Block = Ziegelblock
 Mese Lamp = Meselampe
 Cloud = Wolke
@@ -173,6 +172,11 @@ Steel Sword = Stahlschwert
 Bronze Sword = Bronzeschwert
 Mese Sword = Meseschwert
 Diamond Sword = Diamantschwert
+Skeleton Key = Dietrich
+Key = Schlüssel
+
+#torch.lua
+Torch = Fackel
 
 #trees.lua
 A sapling grows into a tree at @1 = Ein Setzling wächst zu einem Baum bei @1

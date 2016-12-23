@@ -1774,7 +1774,7 @@ minetest.register_node("default:chest_locked", {
 		-- verify placer is owner of lockable chest
 		if owner ~= name then
 			minetest.record_protection_violation(pos, name)
-			minetest.chat_send_player(name, "You do not own this chest.")
+			minetest.chat_send_player(name, S("You do not own this chest."))
 			return nil
 		end
 

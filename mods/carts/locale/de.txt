@@ -1,0 +1,12 @@
+# German Translation for carts mod
+# Deutsche Übersetzung der carts Mod
+# last update: 2016/December/23
+# Author: Xanthin
+
+#cart_entity.lua
+Cart (Sneak+Click to pick up) = Lore (Schleichen+Klick zum aufheben)
+
+#rails.lua
+Rail = Schiene
+Powered rail = Antriebsschiene
+Brake rail = Bremsschiene

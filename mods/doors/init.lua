@@ -416,7 +416,7 @@ function doors.register(name, def)
 			-- verify placer is owner of lockable door
 			if owner ~= pname then
 				minetest.record_protection_violation(pos, pname)
-				minetest.chat_send_player(pname, "You do not own this locked door.")
+				minetest.chat_send_player(pname, S("You do not own this locked door."))
 				return nil
 			end
 
@@ -624,7 +624,7 @@ function doors.register_trapdoor(name, def)
 			-- verify placer is owner of lockable door
 			if owner ~= pname then
 				minetest.record_protection_violation(pos, pname)
-				minetest.chat_send_player(pname, "You do not own this trapdoor.")
+				minetest.chat_send_player(pname, S("You do not own this trapdoor."))
 				return nil
 			end
 

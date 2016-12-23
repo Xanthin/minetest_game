@@ -1,0 +1,10 @@
+# Template for translations of carts mod
+# last update: 2016/December/23
+
+#cart_entity.lua
+Cart (Sneak+Click to pick up) = 
+
+#rails.lua
+Rail = 
+Powered rail = 
+Brake rail = 

@@ -1,0 +1,5 @@
+# Template for translations of sfinv mod
+# last update: 2016/December/23
+
+#init.lua
+Crafting = 

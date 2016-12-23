@@ -382,7 +382,7 @@ minetest.register_tool("default:sword_diamond", {
 })
 
 minetest.register_tool("default:skeleton_key", {
-	description = "Skeleton Key",
+	description = S("Skeleton Key"),
 	inventory_image = "default_key_skeleton.png",
 	groups = {key = 1},
 	on_place = function(itemstack, placer, pointed_thing)
@@ -423,7 +423,7 @@ minetest.register_tool("default:skeleton_key", {
 })
 
 minetest.register_tool("default:key", {
-	description = "Key",
+	description = S("Key"),
 	inventory_image = "default_key.png",
 	groups = {key = 1, not_in_creative_inventory = 1},
 	stack_max = 1,
