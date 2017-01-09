@@ -1,0 +1,8 @@
+# German translation for killme mod
+# Deutsche Übersetzung der killme Mod
+# last update: 2017/January/09
+# Author: Xanthin
+
+Kill yourself to respawn = Töte dich selbst, um erneut zu starten
+No static_spawnpoint defined = Kein static_spawnpoint festgelegt
+You need to be online to be killed! = Du musst online sein um getötet zu werden!
