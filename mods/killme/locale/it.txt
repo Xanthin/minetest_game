@@ -1,0 +1,8 @@
+# Italian translation for killme mod
+# Traduzione italiana per la mod killme
+# last update: 2017/August/09
+# Author: H4mlet
+
+Kill yourself to respawn = Uccidetevi per ricomparire
+No static_spawnpoint defined = Nessuno static_spawnpoint stabilito
+You need to be online to be killed! = Dovete essere online per essere uccisi!
