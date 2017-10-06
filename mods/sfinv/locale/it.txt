@@ -1,7 +1,7 @@
-# Italian translation for sfinv Mod
-# Traduzione italiana per la mod sfinv
-# last update: 2017/August/01
-# Author: H4mlet
+# Italian translation for the sfinv module
+# Traduzione italiana per il modulo sfinv
+# Last update/Ultimo aggiornamento: 2017-10-06
+# Author/Autore: Hamlet <h4mlet@riseup.net>
 
 #init.lua
-Crafting = Costruzione
+Crafting = Assemblaggio

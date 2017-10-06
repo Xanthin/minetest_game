@@ -1,9 +1,9 @@
-# Italian Translation for fire Mod
-# Traduzione italiana del modulo fire
-# Last update/Ultimo aggiornamento: 2016/05/23
-# Author/Autore: Emon
+# Italian translation for the fire module
+# Traduzione italiana per il modulo fire
+# Last update/Ultimo aggiornamento: 2017-10-06
+# Author/Autore: Hamlet <h4mlet@riseup.net>
 
 
 #init.lua
-Permanent Flame = Fiamma perenne
-Flint and Steel = Selce e acciaio
+Permanent Flame = fiamma perenne
+Flint and Steel = acciarino

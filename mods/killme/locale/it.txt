@@ -1,7 +1,7 @@
-# Italian translation for killme mod
-# Traduzione italiana per la mod killme
-# last update: 2017/August/09
-# Author: H4mlet
+# Italian translation for the killme module
+# Traduzione italiana per il modulo killme
+# Last update/Ultimo aggiornamento: 2017-08-09
+# Author/Autore: Hamlet <h4mlet@riseup.net>
 
 Kill yourself to respawn = Uccidetevi per ricomparire
 No static_spawnpoint defined = Nessuno static_spawnpoint stabilito

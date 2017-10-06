@@ -1,0 +1,13 @@
+# Italian translation for the carts module
+# Traduzione italiana per il modulo carts
+# Last update/Ultimo aggiornamento: 2017-10-06
+# Author/Autore: Hamlet <h4mlet@riseup.net>
+
+
+#cart_entity.lua
+Cart (Sneak+Click to pick up) = vagone (maiusc+click per raccoglierlo)
+
+#rails.lua
+Rail = binario
+Powered rail = binario alimentato
+Brake rail = binario freno

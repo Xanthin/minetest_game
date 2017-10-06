@@ -1,10 +1,10 @@
-# Italian Translation for walls Mod
-# Traduzione italiana del modulo walls
-# Last update/Ultimo aggiornamento: 2016/05/23
-# Author/Autore: Emon
+# Italian translation for the walls module
+# Traduzione italiana per il modulo walls
+# Last update/Ultimo aggiornamento: 2017-10-06
+# Author/Autore: Hamlet <h4mlet@riseup.net>
 
 
 #init.lua
-Cobblestone Wall = Muro in ciottoli
-Mossy Cobblestone Wall = Muro in ciottoli muschiosi
-Desert Cobblestone Wall = Muro in ciottoli del deserto
+Cobblestone Wall = muro di ciottoli
+Mossy Cobblestone Wall = muro di ciottoli muschiosi
+Desert Cobblestone Wall = muro di ciottoli del deserto

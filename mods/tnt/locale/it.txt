@@ -1,10 +1,10 @@
-# Italian Translation for tnt Mod
-# Traduzione italiana del modulo tnt
-# Last update/Ultimo aggiornamento: 2016/05/23
-# Author/Autore: Emon
+# Italian translation for the tnt module
+# Traduzione italiana per il modulo tnt
+# Last update/Ultimo aggiornamento: 2017-10-06
+# Author/Autore: Hamlet <h4mlet@riseup.net>
 
 
 #init.lua
 TNT = T.N.T.
-Gun Powder = Polvere da sparo
-[TNT] Loaded! = [T.N.T.] Armato!
+Gun Powder = polvere da sparo
+[TNT] Loaded! = [T.N.T.] armata!
