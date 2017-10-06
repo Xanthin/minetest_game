@@ -1,7 +1,7 @@
-# Italian Translation for boats Mod
-# Traduzione italiana del modulo boats
-# Last update/Ultimo aggiornamento: 2016/05/23
-# Author/Autore: Emon
+# Italian translation for the boats module
+# Traduzione italiana per il modulo boats
+# Last update/Ultimo aggiornamento: 2017-10-06
+# Author/Autore: Hamlet <h4mlet@riseup.net>
 
 #init.lua
-Boat = Barca
+Boat = zattera

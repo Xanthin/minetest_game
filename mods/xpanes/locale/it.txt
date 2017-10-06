@@ -1,9 +1,9 @@
-# Italian Translation for xpanes Mod
-# Traduzione italiana del modulo xpanes
-# Last update/Ultimo aggiornamento: 2016/05/23
-# Author/Autore: Emon
+# Italian translation for the xpanes module
+# Traduzione italiana per il modulo xpanes
+# Last update/Ultimo aggiornamento: 2017-10-06
+# Author/Autore: Hamlet <h4mlet@riseup.net>
 
 
 #init.lua
-Glass Pane = Lastra di vetro
-Iron bar = Sbarra di ferro
+Glass Pane = lastra di vetro
+Iron bar = sbarra di ferro

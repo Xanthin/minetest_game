@@ -1,7 +1,7 @@
-# Italian Translation for wool Mod
-# Traduzione italiana del modulo wool
-# Last update/Ultimo aggiornamento: 2016/05/23
-# Author/Autore: Emon
+# Italian translation for the wool module
+# Traduzione italiana per il modulo wool
+# Last update/Ultimo aggiornamento: 2017-10-06
+# Author/Autore: Hamlet <h4mlet@riseup.net>
 
 
 #init.lua
@@ -20,4 +20,4 @@ Brown = marrone
 Pink = rosa
 Dark Grey = grigia scura
 Dark Green = verde scura
-@1 Wool = Lana @1
+@1 Wool = lana @1

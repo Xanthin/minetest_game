@@ -1,49 +1,49 @@
-# Italian Translation for stairs Mod
-# Traduzione italiana del modulo stairs
-# Last update/Ultimo aggiornamento: 2016/05/23
-# Author/Autore: Emon
+# Italian translation for the stairs module
+# Traduzione italiana per il modulo stairs
+# Last update/Ultimo aggiornamento: 2017-10-06
+# Author/Autore: Hamlet <h4mlet@riseup.net>
 
 
 #init.lua
-Wooden Stair = Scala in legno
-Wooden Slab = Lastra in legno
-Jungle Wood Stair = Scala in legno della giungla
-Jungle Wood Slab = Lastra in legno della giungla
-Pine Wood Stair = Scala in legno di pino
-Pine Wood Slab = Lastra in legno di pino
-Acacia Wood Stair = Scala in legno di acacia
-Acacia Wood Slab = Lastra in legno di acacia
-Aspen Wood Stair = Scala in legno di pioppo
-Aspen Wood Slab = Lastra in legno di pioppo
-Stone Stair = Scala in pietra
-Stone Slab = Lastra in pietra
-Cobblestone Stair = Scala in ciottoli
-Cobblestone Slab = Lastra in ciottoli
-Stone Brick Stair = Scala in mattoni di pietra
-Stone Brick Slab = Lastra in mattoni di pietra
-Desert Stone Stair = Scala in pietra del deserto
-Desert Stone Slab = Lastra in pietra del deserto
-Desert Cobblestone Stair = Scala in ciottoli del deserto
-Desert Cobblestone Slab = Lastra in ciottoli del deserto
-Desert Stone Brick Stair = Scala in mattoni di pietra del deserto
-Desert Stone Brick Slab = Lastra in mattoni di pietra del deserto
-Sandstone Stair = Scala in arenaria
-Sandstone Slab = Lastra in arenaria
-Sandstone Brick Stair = Scala in mattoni di arenaria
-Sandstone Brick Slab = Lastra in mattoni di arenaria
-Obsidian Stair = Scala in ossidiana
-Obsidian Slab = Lastra in ossidiana
-Obsidian Brick Stair = Scala in mattoni di ossidiana
-Obsidian Brick Slab = Lastra in mattoni di ossidiana
-Brick Stair = Scala di mattoni
-Brick Slab = Lastra di mattoni
-Straw Stair = Scala in paglia
-Straw Slab = Lastra in paglia
-Steel Block Stair = Scala in blocco di acciaio
-Steel Block Slab = Lastra in blocco di acciaio
-Copper Block Stair = Scala in blocco di rame
-Copper Block Slab = Lastra in blocco di rame
-Bronze Block Stair = Scala in blocco di bronzo
-Bronze Block Slab = Lastra in blocco di bronzo
-Gold Block Stair = Scala in blocco di oro
-Gold Block Slab = Lastra in blocco di oro
+Wooden Stair = scala di legno
+Wooden Slab = lastra di legno
+Jungle Wood Stair = scala di legno della giungla
+Jungle Wood Slab = lastra di legno della giungla
+Pine Wood Stair = scala di legno di pino
+Pine Wood Slab = lastra di legno di pino
+Acacia Wood Stair = scala di legno d'acacia
+Acacia Wood Slab = lastra di legno d'acacia
+Aspen Wood Stair = scala di legno di pioppo
+Aspen Wood Slab = lastra di legno di pioppo
+Stone Stair = scala di pietra
+Stone Slab = lastra di pietra
+Cobblestone Stair = scala di ciottoli
+Cobblestone Slab = lastra di ciottoli
+Stone Brick Stair = scala di mattoni di pietra
+Stone Brick Slab = lastra di mattoni di pietra
+Desert Stone Stair = scala di pietra del deserto
+Desert Stone Slab = lastra di pietra del deserto
+Desert Cobblestone Stair = scala di ciottoli del deserto
+Desert Cobblestone Slab = lastra di ciottoli del deserto
+Desert Stone Brick Stair = scala di mattoni di pietra del deserto
+Desert Stone Brick Slab = lastra di mattoni di pietra del deserto
+Sandstone Stair = scala d'arenaria
+Sandstone Slab = lastra d'arenaria
+Sandstone Brick Stair = scala di mattoni d'arenaria
+Sandstone Brick Slab = lastra di mattoni d'arenaria
+Obsidian Stair = scala d'ossidiana
+Obsidian Slab = lastra d'ossidiana
+Obsidian Brick Stair = scala di mattoni d'ossidiana
+Obsidian Brick Slab = lastra di mattoni d'ossidiana
+Brick Stair = scala di mattoni
+Brick Slab = lastra di mattoni
+Straw Stair = scala di paglia
+Straw Slab = lastra di paglia
+Steel Block Stair = scala di blocco d'acciaio
+Steel Block Slab = lastra di blocco d'acciaio
+Copper Block Stair = scala di blocco di rame
+Copper Block Slab = lastra di blocco di rame
+Bronze Block Stair = scala di blocco di bronzo
+Bronze Block Slab = lastra di blocco di bronzo
+Gold Block Stair = scala di blocco d'oro
+Gold Block Slab = lastra in blocco d'oro

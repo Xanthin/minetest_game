@@ -1,10 +1,10 @@
-# Italian Translation for bones Mod
-# Traduzione italiana del modulo bones
-# Last update/Ultimo aggiornamento: 2016/05/23
-# Author/Autore: Emon
+# Italian translation for the bones module
+# Traduzione italiana per il modulo bones
+# Last update/Ultimo aggiornamento: 2017-10-06
+# Author/Autore: Hamlet <h4mlet@riseup.net>
 
 #init.lua
-Bones = Ossa
-@1's old bones = Vecchie ossa di @1's
-@1's fresh bones = Ossa fresche di @1's
-@1's bones = Ossa di @1's
+Bones = ossa
+@1's old bones = ossa vecchie di @1
+@1's fresh bones = ossa fresche di @1
+@1's bones = ossa di @1

@@ -1,15 +1,15 @@
-# Italian Translation for vessels Mod
-# Traduzione italiana del modulo vessels
-# Last update/Ultimo aggiornamento: 2016/12/23
-# Author/Autore: Emon
+# Italian translation for the vessels module
+# Traduzione italiana per il modulo vessels
+# Last update/Ultimo aggiornamento: 2017-10-06
+# Author/Autore: Hamlet <h4mlet@riseup.net>
 
 
 #init.lua
-Vessels Shelf = Scaffale dei contenitori
-@1 moves stuff in vessels shelf at @2 = @1 sposta delle cose nello scaffale dei contenitori alla posizione @2
-@1 moves stuff to vessels shelf at @2 = @1 mette delle cose nello scaffale dei contenitori alla posizione @2
-@1 takes stuff from vessels shelf at @2 = @1 prende delle cose dallo scaffale dei contenitori alla posizione @2
-Glass Bottle (empty) = Bottiglia di vetro (vuota)
-Drinking Glass (empty) = Bicchiere (vuoto)
-Heavy Steel Bottle (empty) = Bottiglia in acciaio pesante (vuota)
-Pile of Glass Fragments = Mucchio di frammenti di vetro
+Vessels Shelf = scaffale per contenitori
+@1 moves stuff in vessels shelf at @2 = @1 sposta delle cose nello scaffale per contenitori alla posizione @2
+@1 moves stuff to vessels shelf at @2 = @1 mette delle cose nello scaffale per contenitori alla posizione @2
+@1 takes stuff from vessels shelf at @2 = @1 prende delle cose dallo scaffale per contenitori alla posizione @2
+Glass Bottle (empty) = bottiglia di vetro (vuota)
+Drinking Glass (empty) = bicchiere (vuoto)
+Heavy Steel Bottle (empty) = bottiglia d'acciaio pesante (vuota)
+Pile of Glass Fragments = mucchio di frammenti di vetro
